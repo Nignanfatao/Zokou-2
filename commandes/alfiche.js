@@ -413,7 +413,7 @@ zokou(
 ░░░░░░░░░░░░░░░░░░░
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 
-◇ *Pseudo👤*: Adorieru🇹🇬
+◇ *Pseudo👤*: Adorieru🇹🇩
 ◇ *Rang XP🔰*: ${data.r13}
 ◇ *Golds🧭*: ${data.r14}🧭
 ◇ *NEOcoins🔹*: ${data.r15}🔷
@@ -1764,19 +1764,19 @@ zokou(
 ░░░░░░░░░░░░░░░░░░░
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 
-◇ *Pseudo👤*:
-◇ *Rang XP🔰*: Joueur classé🎮
-◇ *Golds🧭*: 50000🧭
-◇ *NEOcoins🔹*: 0🔷
-◇ *Gift Box🎁*: 0🎁
-◇ *Coupons🎟*: 0🎟
-◇ *NEO PASS🔸*: 0🔸
+◇ *Pseudo👤*: ABDIEL🇹🇬
+◇ *Rang XP🔰*: ${data.r25}
+◇ *Golds🧭*: ${data.r26}🧭
+◇ *NEOcoins🔹*: ${data.r27}🔷
+◇ *Gift Box🎁*: ${data.r28}🎁
+◇ *Coupons🎟*: ${data.r29}🎟
+◇ *NEO PASS🔸*: ${data.r30}🔸
 ░░░░░░░░░░░░░░
-*Note*: ⭐1/5
-*Records*: 0 Victoires✅/ 0 Défaites❌
-*🏆Trophées*: 0 *🌟TOS*: 0 *💫Awards*: 0
+*Note*: ${data.r39}/5
+*Records*: ${data.r31} Victoires✅/ ${data.r32} Défaites❌
+*🏆Trophées*: ${data.r33} *🌟TOS*: ${data.r34} *💫Awards*: ${data.r35}
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
-*🎴Cards(15 max)*: 
+*🎴Cards(15 max)*: ${data.r36} 
 ░░░░░░░░░░░░░░░░░░░
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
          *🔷𝗡Ξ𝗢24🏆🔝*`;
@@ -1833,6 +1833,23 @@ zokou(
         note: "r38",
       };
       break;
+    case "Abdiel":
+      colonnesJoueur = {
+        rang_xp: "r25",
+        golds: "r26",
+        neocoins: "r27",
+        gift_box: "r28",
+        coupons: "r29",
+        neo_pass: "r30",
+        victoires: "r31",
+        defaites: "r32",
+        trophees: "r33",
+        tos: "r34",
+        awards: "r35",
+        cards: "r36",
+        note: "r39",
+      };
+      break;           
     default:
       console.log("Nom de joueur non reconnu.");
               repondre(`joueur: ${joueur} non reconnu`);
@@ -1897,19 +1914,19 @@ zokou(
         let mesg = `.*𝗖𝗘𝗡𝗧𝗥𝗔𝗟 𝗗𝗜𝗩𝗜𝗦𝗜𝗢𝗡🐯🟠*
 ░░░░░░░░░░░░░░░░░░░
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
-◇ *Pseudo👤*: ABDIEL🇹🇬
-◇ *Rang XP🔰*: ${data.r1}
-◇ *Golds🧭*: ${data.r2}🧭
-◇ *NEOcoins🔹*: ${data.r3}🔷
-◇ *Gift Box🎁*: ${data.r4}🎁
-◇ *Coupons🎟*: ${data.r5}🎟
-◇ *NEO PASS🔸*: ${data.r6}🔸
+◇ *Pseudo👤*:
+◇ *Rang XP🔰*: Joueur classé🎮
+◇ *Golds🧭*: 50000🧭
+◇ *NEOcoins🔹*: 0🔷
+◇ *Gift Box🎁*: 0🎁
+◇ *Coupons🎟*: 0🎟
+◇ *NEO PASS🔸*: 0🔸
 ░░░░░░░░░░░░░░
-*Note*: ${data.r37}/5
-*Records*: ${data.r7} Victoires✅/ ${data.r8} Défaites❌
-*🏆Trophées*: ${data.r9} *🌟TOS*: ${data.r10} *💫Awards*: ${data.r11}
+*Note*: ⭐1/5
+*Records*: 0 Victoires✅/ 0 Défaites❌
+*🏆Trophées*: 0 *🌟TOS*: 0 *💫Awards*: 0
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
-*🎴Cards(15 max)*: ${data.r12}
+*🎴Cards(15 max)*: 
 ░░░░░░░░░░░░░░░░░░░
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 
@@ -1964,7 +1981,7 @@ zokou(
           let colonnesJoueur;
 
           switch (joueur) {
-    case "Abdiel":
+    /*case "":
       colonnesJoueur = {
         rang_xp: "r1",
         golds: "r2",
@@ -1980,7 +1997,7 @@ zokou(
         cards: "r12",
         note: "r37",
       };
-      break;
+      break;*/
     default:
       console.log("Nom de joueur non reconnu.");
               repondre(`joueur: ${joueur} non reconnu`);
