@@ -9,7 +9,7 @@ zokou(
     const { ms, repondre, arg, superUser } = commandeOptions;
 
     try {
-      const data = await getData();
+      const data = await getData(1);
       let joueur = arg[1];
       let object = arg[3];
       let signe = arg[4];
@@ -17,7 +17,66 @@ zokou(
       let texte = arg.slice(5).join(' ');
 
       if (!arg || arg.length === 0) {
-        let mesg = ` `;
+        let mesg = `*♻️Serveur 🌃*
+░░░░░░░░░░░░░░░░░░░
+▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
+
+⏧⎔ *🎮Pseudo (Level)*:
+⏧⎔ *👤User*:
+⏧⎔ *🌐Cyber capacité*: ${data.e1}
+⏧⎔ *💠Ξcoins*: ${data.e2}💠Ξ
+⏧⎔ *🌟SP*: ${data.e3}
+⏧⎔ *🌍PC Exploration*: ${data.e4}
+⏧⎔ *⚙️PC Crafting*: ${data.e5}
+⏧⎔ *👊🏼PC Combat*: ${data.e6}
+⏧⎔ *🛞PC Conduite*: ${data.e7}
+▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
+
+⏧⎔ *🎮Pseudo (Level)*:
+⏧⎔ *👤User*:
+⏧⎔ *🌐Cyber capacité*: ${data.e8}
+⏧⎔ *💠Ξcoins*: ${data.e9}💠Ξ
+⏧⎔ *🌟SP*: ${data.e10}
+⏧⎔ *🌍PC Exploration*: ${data.e11}
+⏧⎔ *⚙️PC Crafting*: ${data.e12}
+⏧⎔ *👊🏼PC Combat*: ${data.e13}
+⏧⎔ *🛞PC Conduite*: ${data.e14}
+▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
+
+⏧⎔ *🎮Pseudo (Level)*:
+⏧⎔ *👤User*:
+⏧⎔ *🌐Cyber capacité*: ${data.e15}
+⏧⎔ *💠Ξcoins*: ${data.e16}💠Ξ
+⏧⎔ *🌟SP*: ${data.e17}
+⏧⎔ *🌍PC Exploration*: ${data.e18}
+⏧⎔ *⚙️PC Crafting*: ${data.e19}
+⏧⎔ *👊🏼PC Combat*: ${data.e20}
+⏧⎔ *🛞PC Conduite*: ${data.e21}
+▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
+
+⏧⎔ *🎮Pseudo (Level)*: 
+⏧⎔ *👤User*: 
+⏧⎔ *🌐Cyber capacité*: ${data.e22}
+⏧⎔ *💠Ξcoins*: ${data.e23}💠Ξ
+⏧⎔ *🌟SP*: ${data.e24}
+⏧⎔ *🌍PC Exploration*: ${data.e25}
+⏧⎔ *⚙️PC Crafting*: ${data.e26}
+⏧⎔ *👊🏼PC Combat*: ${data.e27}
+⏧⎔ *🛞PC Conduite*: ${data.e28}
+▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
+
+⏧⎔ *🎮Pseudo (Level)*: 
+⏧⎔ *👤User*:
+⏧⎔ *🌐Cyber capacité*: ${data.e29}
+⏧⎔ *💠Ξcoins*: ${data.e30}💠Ξ
+⏧⎔ *🌟SP*: ${data.e31}
+⏧⎔ *🌍PC Exploration*: ${data.e32}
+⏧⎔ *⚙️PC Crafting*: ${data.e33}
+⏧⎔ *👊🏼PC Combat*: ${data.e34}
+⏧⎔ *🛞PC Conduite*: ${data.e35}
+░░░░░░░░░░░░░░░░░░░
+▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
+                       💠ΞLYSIUM2162`;
 zk.sendMessage(dest, { image: { url: '' }, caption: mesg }, { quoted: ms });
        } else {
         if (superUser) { 
