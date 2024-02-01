@@ -9,7 +9,7 @@ zokou(
     const { ms, repondre, arg, superUser } = commandeOptions;
 
     try {
-      const data = await getData1();
+      const data = await getData();
       let joueur = arg[1];
       let object = arg[3];
       let signe = arg[4];
@@ -46,9 +46,58 @@ zk.sendMessage(dest, { image: { url: '' }, caption: mesg }, { quoted: ms });
         pc_crafting: "e5",
         pc_combat: "e6",
         pc_conduite: "e7",
-      }
-        default
-           default:
+      };
+        break;
+              
+      case "":
+      colonnesJoueur = {
+        capacite: "e8",
+        ecoins: "e9",
+        sp: "e10",
+        pc_Exploration: "e11",
+        pc_crafting: "e12",
+        pc_combat: "e13",
+        pc_conduite: "e14",
+      };
+        break;  
+
+      case "":
+      colonnesJoueur = {
+        capacite: "e15",
+        ecoins: "e16",
+        sp: "e17",
+        pc_Exploration: "e18",
+        pc_crafting: "e19",
+        pc_combat: "e20",
+        pc_conduite: "e21",
+      };
+        break; 
+
+       case "":
+      colonnesJoueur = {
+        capacite: "e22",
+        ecoins: "e23",
+        sp: "e24",
+        pc_Exploration: "e25",
+        pc_crafting: "e26",
+        pc_combat: "e27",
+        pc_conduite: "e28",
+      };
+        break;      
+
+     case "":
+      colonnesJoueur = {
+        capacite: "e29",
+        ecoins: "e30",
+        sp: "e31",
+        pc_Exploration: "e32",
+        pc_crafting: "e33",
+        pc_combat: "e34",
+        pc_conduite: "e35",
+      };
+        break; 
+              
+            default:
       console.log("Nom de joueur non reconnu.");
               repondre(`joueur: ${joueur} non reconnu`);
               return; 
