@@ -10,7 +10,7 @@ const proConfig = {
 
 const pool = new Pool(proConfig);
 
-async function createAlFicheTable() {
+async function createElFicheTable() {
   const client = await pool.connect();
 
   try {
@@ -124,7 +124,7 @@ createElFicheTable();
 insertData();
 
 module.exports = {
-  createAlFicheTable,
+  createElFicheTable,
  // insertData1,
   insertData,
   getData
