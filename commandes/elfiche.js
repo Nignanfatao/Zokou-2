@@ -209,7 +209,7 @@ zokou(
     const { ms, repondre, arg, superUser } = commandeOptions;
 
     try {
-      const data = await getData(1);
+      const data = await getData(2);
       let joueur = arg[1];
       let object = arg[3];
       let signe = arg[4];
@@ -409,7 +409,7 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/00462de04c51991d95
     const { ms, repondre, arg, superUser } = commandeOptions;
 
     try {
-      const data = await getData(1);
+      const data = await getData(3);
       let joueur = arg[1];
       let object = arg[3];
       let signe = arg[4];
@@ -609,7 +609,7 @@ zokou(
     const { ms, repondre, arg, superUser } = commandeOptions;
 
     try {
-      const data = await getData(1);
+      const data = await getData(4);
       let joueur = arg[1];
       let object = arg[3];
       let signe = arg[4];
@@ -809,7 +809,7 @@ zokou(
     const { ms, repondre, arg, superUser } = commandeOptions;
 
     try {
-      const data = await getData(1);
+      const data = await getData(5);
       let joueur = arg[1];
       let object = arg[3];
       let signe = arg[4];
@@ -1009,7 +1009,7 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/a523d9c72ed2bc043b
     const { ms, repondre, arg, superUser } = commandeOptions;
 
     try {
-      const data = await getData(1);
+      const data = await getData(6);
       let joueur = arg[1];
       let object = arg[3];
       let signe = arg[4];
@@ -1209,7 +1209,7 @@ zokou(
     const { ms, repondre, arg, superUser } = commandeOptions;
 
     try {
-      const data = await getData(1);
+      const data = await getData(7);
       let joueur = arg[1];
       let object = arg[3];
       let signe = arg[4];
@@ -1409,7 +1409,7 @@ zokou(
     const { ms, repondre, arg, superUser } = commandeOptions;
 
     try {
-      const data = await getData(1);
+      const data = await getData(8);
       let joueur = arg[1];
       let object = arg[3];
       let signe = arg[4];
@@ -1609,7 +1609,7 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/b485db069c314461ca
     const { ms, repondre, arg, superUser } = commandeOptions;
 
     try {
-      const data = await getData(1);
+      const data = await getData(9);
       let joueur = arg[1];
       let object = arg[3];
       let signe = arg[4];
@@ -1809,7 +1809,7 @@ zokou(
     const { ms, repondre, arg, superUser } = commandeOptions;
 
     try {
-      const data = await getData(1);
+      const data = await getData(10);
       let joueur = arg[1];
       let object = arg[3];
       let signe = arg[4];
@@ -2009,7 +2009,7 @@ zokou(
     const { ms, repondre, arg, superUser } = commandeOptions;
 
     try {
-      const data = await getData(1);
+      const data = await getData(11);
       let joueur = arg[1];
       let object = arg[3];
       let signe = arg[4];
@@ -2209,7 +2209,7 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/3a817ee775dff1c0ad
     const { ms, repondre, arg, superUser } = commandeOptions;
 
     try {
-      const data = await getData(1);
+      const data = await getData(12);
       let joueur = arg[1];
       let object = arg[3];
       let signe = arg[4];
