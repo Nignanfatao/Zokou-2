@@ -17,12 +17,12 @@ zokou(
       let texte = arg.slice(5).join(' ');
 
       if (!arg || arg.length === 0) {
-        let mesg = `*♻️Serveur 🌃*
+        let mesg = `*♻️Serveur FALLEN ANGELES🌃*
 ░░░░░░░░░░░░░░░░░░░
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 
-⏧⎔ *🎮Pseudo (Level)*:
-⏧⎔ *👤User*:
+⏧⎔ *🎮Pseudo (Level)*: TEMPEST🥉
+⏧⎔ *👤User*: Grimm Tempest
 ⏧⎔ *🌐Cyber capacité*: ${data.e1}
 ⏧⎔ *💠Ξcoins*: ${data.e2}💠Ξ
 ⏧⎔ *🌟SP*: ${data.e3}
@@ -32,8 +32,8 @@ zokou(
 ⏧⎔ *🛞PC Conduite*: ${data.e7}
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 
-⏧⎔ *🎮Pseudo (Level)*:
-⏧⎔ *👤User*:
+⏧⎔ *🎮Pseudo (Level)*: Dave G Storm🥉
+⏧⎔ *👤User*: Goldy Shogun
 ⏧⎔ *🌐Cyber capacité*: ${data.e8}
 ⏧⎔ *💠Ξcoins*: ${data.e9}💠Ξ
 ⏧⎔ *🌟SP*: ${data.e10}
@@ -43,8 +43,8 @@ zokou(
 ⏧⎔ *🛞PC Conduite*: ${data.e14}
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 
-⏧⎔ *🎮Pseudo (Level)*:
-⏧⎔ *👤User*:
+⏧⎔ *🎮Pseudo (Level)*: Fear the Death🥉
+⏧⎔ *👤User*: Atsushi KÏNGS
 ⏧⎔ *🌐Cyber capacité*: ${data.e15}
 ⏧⎔ *💠Ξcoins*: ${data.e16}💠Ξ
 ⏧⎔ *🌟SP*: ${data.e17}
@@ -54,8 +54,8 @@ zokou(
 ⏧⎔ *🛞PC Conduite*: ${data.e21}
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 
-⏧⎔ *🎮Pseudo (Level)*: 
-⏧⎔ *👤User*: 
+⏧⎔ *🎮Pseudo (Level)*: Fearless Queen🥉
+⏧⎔ *👤User*: Lily KÏNGS
 ⏧⎔ *🌐Cyber capacité*: ${data.e22}
 ⏧⎔ *💠Ξcoins*: ${data.e23}💠Ξ
 ⏧⎔ *🌟SP*: ${data.e24}
@@ -65,8 +65,8 @@ zokou(
 ⏧⎔ *🛞PC Conduite*: ${data.e28}
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 
-⏧⎔ *🎮Pseudo (Level)*: 
-⏧⎔ *👤User*:
+⏧⎔ *🎮Pseudo (Level)*: Jonh Ainz🥉
+⏧⎔ *👤User*: Ainz KÏNGS
 ⏧⎔ *🌐Cyber capacité*: ${data.e29}
 ⏧⎔ *💠Ξcoins*: ${data.e30}💠Ξ
 ⏧⎔ *🌟SP*: ${data.e31}
@@ -96,7 +96,7 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/00462de04c51991d95
           let colonnesJoueur;
           
           switch (joueur) {
-    case "":
+    case "Tempest":
       colonnesJoueur = {
         capacite: "e1",
         ecoins: "e2",
@@ -108,7 +108,7 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/00462de04c51991d95
       };
         break;
               
-      case "":
+      case "Goldy":
       colonnesJoueur = {
         capacite: "e8",
         ecoins: "e9",
@@ -120,7 +120,7 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/00462de04c51991d95
       };
         break;  
 
-      case "":
+      case "Atsushi":
       colonnesJoueur = {
         capacite: "e15",
         ecoins: "e16",
@@ -132,7 +132,7 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/00462de04c51991d95
       };
         break; 
 
-       case "":
+       case "Lily":
       colonnesJoueur = {
         capacite: "e22",
         ecoins: "e23",
@@ -144,7 +144,7 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/00462de04c51991d95
       };
         break;      
 
-     case "":
+     case "Ainz":
       colonnesJoueur = {
         capacite: "e29",
         ecoins: "e30",
@@ -217,7 +217,7 @@ zokou(
       let texte = arg.slice(5).join(' ');
 
       if (!arg || arg.length === 0) {
-        let mesg = `*♻️Serveur 🌃*
+        let mesg = `*♻️Serveur FALLEN ANGELES🌃*
 ░░░░░░░░░░░░░░░░░░░
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 
@@ -417,7 +417,7 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/00462de04c51991d95
       let texte = arg.slice(5).join(' ');
 
       if (!arg || arg.length === 0) {
-        let mesg = `*♻️Serveur 🌃*
+        let mesg = `*♻️Serveur FALLEN ANGELES🌃*
 ░░░░░░░░░░░░░░░░░░░
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 
@@ -617,12 +617,12 @@ zokou(
       let texte = arg.slice(5).join(' ');
 
       if (!arg || arg.length === 0) {
-        let mesg = `*♻️Serveur 🌃*
+        let mesg = `*♻️Serveur DOWNTOWN🌃*
 ░░░░░░░░░░░░░░░░░░░
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 
-⏧⎔ *🎮Pseudo (Level)*:
-⏧⎔ *👤User*:
+⏧⎔ *🎮Pseudo (Level)*: Killer Cg🥉
+⏧⎔ *👤User*: Ghost Killer
 ⏧⎔ *🌐Cyber capacité*: ${data.e1}
 ⏧⎔ *💠Ξcoins*: ${data.e2}💠Ξ
 ⏧⎔ *🌟SP*: ${data.e3}
@@ -632,8 +632,8 @@ zokou(
 ⏧⎔ *🛞PC Conduite*: ${data.e7}
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 
-⏧⎔ *🎮Pseudo (Level)*:
-⏧⎔ *👤User*:
+⏧⎔ *🎮Pseudo (Level)*: Death Minder🥉
+⏧⎔ *👤User*: Damian KÏNGS
 ⏧⎔ *🌐Cyber capacité*: ${data.e8}
 ⏧⎔ *💠Ξcoins*: ${data.e9}💠Ξ
 ⏧⎔ *🌟SP*: ${data.e10}
@@ -643,8 +643,8 @@ zokou(
 ⏧⎔ *🛞PC Conduite*: ${data.e14}
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 
-⏧⎔ *🎮Pseudo (Level)*:
-⏧⎔ *👤User*:
+⏧⎔ *🎮Pseudo (Level)*: Black Mamba🥉
+⏧⎔ *👤User*: Vanitas Golds KÏNGS
 ⏧⎔ *🌐Cyber capacité*: ${data.e15}
 ⏧⎔ *💠Ξcoins*: ${data.e16}💠Ξ
 ⏧⎔ *🌟SP*: ${data.e17}
@@ -654,8 +654,8 @@ zokou(
 ⏧⎔ *🛞PC Conduite*: ${data.e21}
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 
-⏧⎔ *🎮Pseudo (Level)*: 
-⏧⎔ *👤User*: 
+⏧⎔ *🎮Pseudo (Level)*: karosu🥉
+⏧⎔ *👤User*: Kemael
 ⏧⎔ *🌐Cyber capacité*: ${data.e22}
 ⏧⎔ *💠Ξcoins*: ${data.e23}💠Ξ
 ⏧⎔ *🌟SP*: ${data.e24}
@@ -666,7 +666,7 @@ zokou(
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 
 ⏧⎔ *🎮Pseudo (Level)*: 
-⏧⎔ *👤User*:
+⏧⎔ *👤User*: White KÏNGS
 ⏧⎔ *🌐Cyber capacité*: ${data.e29}
 ⏧⎔ *💠Ξcoins*: ${data.e30}💠Ξ
 ⏧⎔ *🌟SP*: ${data.e31}
@@ -696,7 +696,7 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/a523d9c72ed2bc043b
           let colonnesJoueur;
           
           switch (joueur) {
-    case "":
+    case "Killer":
       colonnesJoueur = {
         capacite: "e1",
         ecoins: "e2",
@@ -708,7 +708,7 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/a523d9c72ed2bc043b
       };
         break;
               
-      case "":
+      case "Damian":
       colonnesJoueur = {
         capacite: "e8",
         ecoins: "e9",
@@ -720,7 +720,7 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/a523d9c72ed2bc043b
       };
         break;  
 
-      case "":
+      case "Vanitas":
       colonnesJoueur = {
         capacite: "e15",
         ecoins: "e16",
@@ -732,7 +732,7 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/a523d9c72ed2bc043b
       };
         break; 
 
-       case "":
+       case "Kemeal":
       colonnesJoueur = {
         capacite: "e22",
         ecoins: "e23",
@@ -744,7 +744,7 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/a523d9c72ed2bc043b
       };
         break;      
 
-     case "":
+     case "White":
       colonnesJoueur = {
         capacite: "e29",
         ecoins: "e30",
@@ -817,7 +817,7 @@ zokou(
       let texte = arg.slice(5).join(' ');
 
       if (!arg || arg.length === 0) {
-        let mesg = `*♻️Serveur 🌃*
+        let mesg = `*♻️Serveur DOWNTOWN🌃*
 ░░░░░░░░░░░░░░░░░░░
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 
@@ -1017,7 +1017,7 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/a523d9c72ed2bc043b
       let texte = arg.slice(5).join(' ');
 
       if (!arg || arg.length === 0) {
-        let mesg = `*♻️Serveur 🌃*
+        let mesg = `*♻️Serveur DOWNTOWN🌃*
 ░░░░░░░░░░░░░░░░░░░
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 
