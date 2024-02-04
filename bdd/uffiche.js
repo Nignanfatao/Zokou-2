@@ -57,7 +57,7 @@ async function createUfFicheTable() {
         e37 INTEGER DEFAULT 0,
         e38 INTEGER DEFAULT 0,
         e39 TEXT DEFAULT 'aucun',
-        e40 INTEGER DEFAULT 0,
+        e40 INTEGER DEFAULT 0
         );
     `);
     console.log('Table uffiche créée avec succès');
