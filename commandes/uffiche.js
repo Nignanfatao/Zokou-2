@@ -1,5 +1,7 @@
 const { zokou } = require('../framework/zokou');
 const { getData } = require('../bdd/uffiche');
+
+
 zokou(
   {
     nomCom: 'uf1',
@@ -194,14 +196,14 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/00462de04c51991d95
         const solde = `${data[colonneObjet]} ${signe} ${valeur}`;
 
           if (colonneObjet && (signe === '+' || signe === '-')) {
-            const query = `UPDATE alfiche SET ${colonneObjet} = ${data[colonneObjet]} ${signe} ${valeur} WHERE id = 1`;
+            const query = `UPDATE uffiche SET ${colonneObjet} = ${data[colonneObjet]} ${signe} ${valeur} WHERE id = 1`;
             await client.query(query);
 
             console.log(`Données de l'utilisateur ${joueur} mises à jour`);
            await repondre(`Données du joueur mises à jour\n👤 *JOUEUR*: ${joueur}\n⚙ *OBJECT*: ${object}\n💵 *VALEUR*: ${signe}${valeur}\n*NOUVEAU SOLDE*: ${solde}`);
           } else if (colonneObjet && signe === '=') {
             const query = `
-            UPDATE alfiche
+            UPDATE uffiche
             SET ${colonneObjet} = $1
             WHERE id = 1
             `;
@@ -422,14 +424,14 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/00462de04c51991d95
         const solde = `${data[colonneObjet]} ${signe} ${valeur}`;
 
           if (colonneObjet && (signe === '+' || signe === '-')) {
-            const query = `UPDATE alfiche SET ${colonneObjet} = ${data[colonneObjet]} ${signe} ${valeur} WHERE id = 1`;
+            const query = `UPDATE uffiche SET ${colonneObjet} = ${data[colonneObjet]} ${signe} ${valeur} WHERE id = 1`;
             await client.query(query);
 
             console.log(`Données de l'utilisateur ${joueur} mises à jour`);
            await repondre(`Données du joueur mises à jour\n👤 *JOUEUR*: ${joueur}\n⚙ *OBJECT*: ${object}\n💵 *VALEUR*: ${signe}${valeur}\n*NOUVEAU SOLDE*: ${solde}`);
           } else if (colonneObjet && signe === '=') {
             const query = `
-            UPDATE alfiche
+            UPDATE uffiche
             SET ${colonneObjet} = $1
             WHERE id = 1
             `;
@@ -454,9 +456,9 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/00462de04c51991d95
     } catch (error) {
       console.error("Erreur lors de la mise à jour des données de l'utilisateur:", error);
     }
-  });/*
+  });
 
-/zokou(
+/*zokou(
   {
     nomCom: 'uf3',
     categorie: 'NEOverse'
@@ -650,14 +652,14 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/00462de04c51991d95
         const solde = `${data[colonneObjet]} ${signe} ${valeur}`;
 
           if (colonneObjet && (signe === '+' || signe === '-')) {
-            const query = `UPDATE alfiche SET ${colonneObjet} = ${data[colonneObjet]} ${signe} ${valeur} WHERE id = 1`;
+            const query = `UPDATE uffiche SET ${colonneObjet} = ${data[colonneObjet]} ${signe} ${valeur} WHERE id = 1`;
             await client.query(query);
 
             console.log(`Données de l'utilisateur ${joueur} mises à jour`);
            await repondre(`Données du joueur mises à jour\n👤 *JOUEUR*: ${joueur}\n⚙ *OBJECT*: ${object}\n💵 *VALEUR*: ${signe}${valeur}\n*NOUVEAU SOLDE*: ${solde}`);
           } else if (colonneObjet && signe === '=') {
             const query = `
-            UPDATE alfiche
+            UPDATE uffiche
             SET ${colonneObjet} = $1
             WHERE id = 1
             `;
@@ -682,9 +684,9 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/00462de04c51991d95
     } catch (error) {
       console.error("Erreur lors de la mise à jour des données de l'utilisateur:", error);
     }
-  });
+  });*/
 
-/zokou(
+/*zokou(
   {
     nomCom: 'uf4',
     categorie: 'NEOverse'
@@ -878,14 +880,14 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/00462de04c51991d95
         const solde = `${data[colonneObjet]} ${signe} ${valeur}`;
 
           if (colonneObjet && (signe === '+' || signe === '-')) {
-            const query = `UPDATE alfiche SET ${colonneObjet} = ${data[colonneObjet]} ${signe} ${valeur} WHERE id = 1`;
+            const query = `UPDATE uffiche SET ${colonneObjet} = ${data[colonneObjet]} ${signe} ${valeur} WHERE id = 1`;
             await client.query(query);
 
             console.log(`Données de l'utilisateur ${joueur} mises à jour`);
            await repondre(`Données du joueur mises à jour\n👤 *JOUEUR*: ${joueur}\n⚙ *OBJECT*: ${object}\n💵 *VALEUR*: ${signe}${valeur}\n*NOUVEAU SOLDE*: ${solde}`);
           } else if (colonneObjet && signe === '=') {
             const query = `
-            UPDATE alfiche
+            UPDATE uffiche
             SET ${colonneObjet} = $1
             WHERE id = 1
             `;
@@ -910,9 +912,9 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/00462de04c51991d95
     } catch (error) {
       console.error("Erreur lors de la mise à jour des données de l'utilisateur:", error);
     }
-  });
+  });*/
 
-/zokou(
+/*zokou(
   {
     nomCom: 'uf5',
     categorie: 'NEOverse'
@@ -1106,14 +1108,14 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/00462de04c51991d95
         const solde = `${data[colonneObjet]} ${signe} ${valeur}`;
 
           if (colonneObjet && (signe === '+' || signe === '-')) {
-            const query = `UPDATE alfiche SET ${colonneObjet} = ${data[colonneObjet]} ${signe} ${valeur} WHERE id = 1`;
+            const query = `UPDATE uffiche SET ${colonneObjet} = ${data[colonneObjet]} ${signe} ${valeur} WHERE id = 1`;
             await client.query(query);
 
             console.log(`Données de l'utilisateur ${joueur} mises à jour`);
            await repondre(`Données du joueur mises à jour\n👤 *JOUEUR*: ${joueur}\n⚙ *OBJECT*: ${object}\n💵 *VALEUR*: ${signe}${valeur}\n*NOUVEAU SOLDE*: ${solde}`);
           } else if (colonneObjet && signe === '=') {
             const query = `
-            UPDATE alfiche
+            UPDATE uffiche
             SET ${colonneObjet} = $1
             WHERE id = 1
             `;
