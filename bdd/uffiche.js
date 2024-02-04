@@ -14,7 +14,7 @@ async function createUfFicheTable() {
   const client = await pool.connect();
 
   try {
-    // Créez la table elfiche si elle n'existe pas déjà
+    // Créez la table uffiche si elle n'existe pas déjà
     await client.query(`
       CREATE TABLE IF NOT EXISTS elfiche(
         id SERIAL PRIMARY KEY,
@@ -60,7 +60,7 @@ async function createUfFicheTable() {
         e40 INTEGER DEFAULT 0,
         );
     `);
-    console.log('Table elfiche créée avec succès');
+    console.log('Table uffiche créée avec succès');
   } catch (error) {
     console.error('Erreur lors de la création de la table uffiche:', error);
   } finally {
@@ -74,7 +74,7 @@ async function createUfFicheTable() {
   try {
     // Modifiez la définition de la table pour ajouter les colonnes
     await client.query(`
-      ALTER TABLE elfiche
+      ALTER TABLE uffiche
      `);
 
     console.log('Colonnes ajoutées avec succès');
@@ -90,7 +90,7 @@ async function insertData() {
   try {
     for (let i = 1; i <= 12; i++) {
       const query = `
-        INSERT INTO elfiche(e1, e2, e3, e4, e5, e6, e7, e8, e9, e10, e11, e12, e13, e14, e15, e16, e17, e18, e19, e20, e21, e22, e23, e24, e25, e26, e27, e28, e29, e30, e31, e32, e33, e34, e35, e36, e37, e38, e39, e40)
+        INSERT INTO uffiche(e1, e2, e3, e4, e5, e6, e7, e8, e9, e10, e11, e12, e13, e14, e15, e16, e17, e18, e19, e20, e21, e22, e23, e24, e25, e26, e27, e28, e29, e30, e31, e32, e33, e34, e35, e36, e37, e38, e39, e40)
         VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16, $17, $18, $19, $20, $21, $22, $23, $24, $25, $26, $27, $28, $29, $30, $31, $32, $33, $34, $35, $36, $37, $38, $39, $40)
       `;
 
