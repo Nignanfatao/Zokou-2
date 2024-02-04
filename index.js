@@ -613,7 +613,7 @@
             }  else if (group.action == 'add' && (await recupevents(group.id, "neowelcome") == 'oui')) {
                 let membres = group.participants;
                 for (let membre of membres) {
-                let msg = `@${membre.split("@")[0]} Bienvenue🙂 💙 : *Remplis les 3️⃣ Étapes en conditions dans la description*, puis après passe prendre ta première card de combat chez 👉🏼 //Wa.me/+242055759975
+                let msg = `@${membre.split("@")[0]} Bienvenue🙂 💙 : *Remplis les 3️⃣ Étapes en conditions dans la description*, puis après passe prendre ta première card de combat
 
 ░░░░░░░░░░░░░░░░░░░
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
