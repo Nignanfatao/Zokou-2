@@ -10,7 +10,7 @@ const proConfig = {
 
 const pool = new Pool(proConfig);
 
-async function createElFicheTable() {
+async function createUfFicheTable() {
   const client = await pool.connect();
 
   try {
@@ -62,7 +62,7 @@ async function createElFicheTable() {
     `);
     console.log('Table elfiche créée avec succès');
   } catch (error) {
-    console.error('Erreur lors de la création de la table elfiche:', error);
+    console.error('Erreur lors de la création de la table uffiche:', error);
   } finally {
     client.release();
   }
