@@ -39,7 +39,7 @@ zokou(
 ░░░░░░░░░░░
 ▔▔▔▔▔◇▔
 ◇ ${data.e11}:  Nash
-◇ Fonds💶: ${data e12} €
+◇ Fonds💶: ${data.e12} €
 ◇ UF coins🪙: ${data.e13} UFC🪙
 ◇ Division🏆: ${data.e14}
 ◇ Trophées: ${data.e15}
@@ -267,7 +267,7 @@ zokou(
 ░░░░░░░░░░░
 ▔▔▔▔▔◇▔
 ◇ ${data.e11}:  White KÏNGS⚜️
-◇ Fonds💶: ${data e12} €
+◇ Fonds💶: ${data.e12} €
 ◇ UF coins🪙: ${data.e13} UFC🪙
 ◇ Division🏆: ${data.e14}
 ◇ Trophées: ${data.e15}
@@ -495,7 +495,7 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/00462de04c51991d95
 ░░░░░░░░░░░
 ▔▔▔▔▔◇▔
 ◇ ${data.e11}: 
-◇ Fonds💶: ${data e12} €
+◇ Fonds💶: ${data.e12} €
 ◇ UF coins🪙: ${data.e13} UFC🪙
 ◇ Division🏆: ${data.e14}
 ◇ Trophées: ${data.e15}
@@ -723,7 +723,7 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/00462de04c51991d95
 ░░░░░░░░░░░
 ▔▔▔▔▔◇▔
 ◇ ${data.e11}: 
-◇ Fonds💶: ${data e12} €
+◇ Fonds💶: ${data.e12} €
 ◇ UF coins🪙: ${data.e13} UFC🪙
 ◇ Division🏆: ${data.e14}
 ◇ Trophées: ${data.e15}
@@ -951,7 +951,7 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/00462de04c51991d95
 ░░░░░░░░░░░
 ▔▔▔▔▔◇▔
 ◇ ${data.e11}: 
-◇ Fonds💶: ${data e12} €
+◇ Fonds💶: ${data.e12} €
 ◇ UF coins🪙: ${data.e13} UFC🪙
 ◇ Division🏆: ${data.e14}
 ◇ Trophées: ${data.e15}
