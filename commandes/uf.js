@@ -64,7 +64,7 @@ zokou(
 ◇ Fonds💶: ${data.e27} €
 ◇ UF coins🪙: ${data.e28} UFC🪙
 ◇ Division🏆: ${data.e29}
-◇ Trophées: ${data.30}
+◇ Trophées: ${data.e30}
 
 ░░░░░░░░░░░
 ▔▔▔▔▔◇▔
