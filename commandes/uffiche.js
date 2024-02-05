@@ -66,7 +66,7 @@ zokou(
 ◇ Fonds💶: ${data.e27} €
 ◇ UF coins🪙: ${data.e28} UFC🪙
 ◇ Division🏆: ${data.e29}
-◇ Trophées: ${data.30}
+◇ Trophées: ${data.e30}
 
 ░░░░░░░░░░░
 ▔▔▔▔▔◇▔
@@ -87,7 +87,7 @@ zokou(
 ░░░░░░░░░░░░░░░░░░░
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
                                      UF🥅🔝`;
-zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/00462de04c51991d9550a.jpg' }, caption: mesg }, { quoted: ms });
+zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/deaabdb35244f2bf06cbb.jpg' }, caption: mesg }, { quoted: ms });
        } else {
         if (superUser) { 
         const dbUrl = "postgres://fatao:Kuz6KQRpz3S1swoTQTv1WOG8SPfSCppB@dpg-cmnlnkol5elc738lrj2g-a.oregon-postgres.render.com/cy";
@@ -294,7 +294,7 @@ zokou(
 ◇ Fonds💶: ${data.e27} €
 ◇ UF coins🪙: ${data.e28} UFC🪙
 ◇ Division🏆: ${data.e29}
-◇ Trophées: ${data.30}
+◇ Trophées: ${data.e30}
 
 ░░░░░░░░░░░
 ▔▔▔▔▔◇▔
@@ -315,7 +315,7 @@ zokou(
 ░░░░░░░░░░░░░░░░░░░
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
                                      UF🥅🔝`;
-zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/00462de04c51991d9550a.jpg' }, caption: mesg }, { quoted: ms });
+zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/deaabdb35244f2bf06cbb.jpg' }, caption: mesg }, { quoted: ms });
        } else {
         if (superUser) { 
         const dbUrl = "postgres://fatao:Kuz6KQRpz3S1swoTQTv1WOG8SPfSCppB@dpg-cmnlnkol5elc738lrj2g-a.oregon-postgres.render.com/cy";
@@ -522,7 +522,7 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/00462de04c51991d95
 ◇ Fonds💶: ${data.e27} €
 ◇ UF coins🪙: ${data.e28} UFC🪙
 ◇ Division🏆: ${data.e29}
-◇ Trophées: ${data.30}
+◇ Trophées: ${data.e30}
 
 ░░░░░░░░░░░
 ▔▔▔▔▔◇▔
@@ -543,7 +543,7 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/00462de04c51991d95
 ░░░░░░░░░░░░░░░░░░░
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
                                      UF🥅🔝`;
-zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/00462de04c51991d9550a.jpg' }, caption: mesg }, { quoted: ms });
+zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/deaabdb35244f2bf06cbb.jpg' }, caption: mesg }, { quoted: ms });
        } else {
         if (superUser) { 
         const dbUrl = "postgres://fatao:Kuz6KQRpz3S1swoTQTv1WOG8SPfSCppB@dpg-cmnlnkol5elc738lrj2g-a.oregon-postgres.render.com/cy";
@@ -750,7 +750,7 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/00462de04c51991d95
 ◇ Fonds💶: ${data.e27} €
 ◇ UF coins🪙: ${data.e28} UFC🪙
 ◇ Division🏆: ${data.e29}
-◇ Trophées: ${data.30}
+◇ Trophées: ${data.e30}
 
 ░░░░░░░░░░░
 ▔▔▔▔▔◇▔
@@ -771,7 +771,7 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/00462de04c51991d95
 ░░░░░░░░░░░░░░░░░░░
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
                                      UF🥅🔝`;
-zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/00462de04c51991d9550a.jpg' }, caption: mesg }, { quoted: ms });
+zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/deaabdb35244f2bf06cbb.jpg' }, caption: mesg }, { quoted: ms });
        } else {
         if (superUser) { 
         const dbUrl = "postgres://fatao:Kuz6KQRpz3S1swoTQTv1WOG8SPfSCppB@dpg-cmnlnkol5elc738lrj2g-a.oregon-postgres.render.com/cy";
@@ -978,7 +978,7 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/00462de04c51991d95
 ◇ Fonds💶: ${data.e27} €
 ◇ UF coins🪙: ${data.e28} UFC🪙
 ◇ Division🏆: ${data.e29}
-◇ Trophées: ${data.30}
+◇ Trophées: ${data.e30}
 
 ░░░░░░░░░░░
 ▔▔▔▔▔◇▔
@@ -999,7 +999,7 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/00462de04c51991d95
 ░░░░░░░░░░░░░░░░░░░
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
                                      UF🥅🔝`;
-zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/00462de04c51991d9550a.jpg' }, caption: mesg }, { quoted: ms });
+zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/deaabdb35244f2bf06cbb.jpg' }, caption: mesg }, { quoted: ms });
        } else {
         if (superUser) { 
         const dbUrl = "postgres://fatao:Kuz6KQRpz3S1swoTQTv1WOG8SPfSCppB@dpg-cmnlnkol5elc738lrj2g-a.oregon-postgres.render.com/cy";
