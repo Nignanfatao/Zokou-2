@@ -16,7 +16,7 @@ async function createUfFicheTable() {
   try {
     // Créez la table uffiche si elle n'existe pas déjà
     await client.query(`
-      CREATE TABLE IF NOT EXISTS elfiche(
+      CREATE TABLE IF NOT EXISTS uffiche(
         id SERIAL PRIMARY KEY,
         e1 TEXT DEFAULT 'aucun',
         e2 INTEGER DEFAULT 0,
