@@ -142,14 +142,14 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/410a422056516fbd7d
         const solde = `${data[colonneObjet]} ${signe} ${valeur}`;
 
           if (colonneObjet && (signe === '+' || signe === '-')) {
-            const query = `UPDATE uffiche SET ${colonneObjet} = ${data[colonneObjet]} ${signe} ${valeur} WHERE id = 1`;
+            const query = `UPDATE nbafiche SET ${colonneObjet} = ${data[colonneObjet]} ${signe} ${valeur} WHERE id = 1`;
             await client.query(query);
 
             console.log(`Données de l'utilisateur ${joueur} mises à jour`);
            await repondre(`Données du joueur mises à jour\n👤 *JOUEUR*: ${joueur}\n⚙ *OBJECT*: ${object}\n💵 *VALEUR*: ${signe}${valeur}\n*NOUVEAU SOLDE*: ${solde}`);
           } else if (colonneObjet && signe === '=') {
             const query = `
-            UPDATE uffiche
+            UPDATE nbafiche
             SET ${colonneObjet} = $1
             WHERE id = 1
             `;
@@ -316,14 +316,14 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/410a422056516fbd7d
         const solde = `${data[colonneObjet]} ${signe} ${valeur}`;
 
           if (colonneObjet && (signe === '+' || signe === '-')) {
-            const query = `UPDATE uffiche SET ${colonneObjet} = ${data[colonneObjet]} ${signe} ${valeur} WHERE id = 1`;
+            const query = `UPDATE nbafiche SET ${colonneObjet} = ${data[colonneObjet]} ${signe} ${valeur} WHERE id = 1`;
             await client.query(query);
 
             console.log(`Données de l'utilisateur ${joueur} mises à jour`);
            await repondre(`Données du joueur mises à jour\n👤 *JOUEUR*: ${joueur}\n⚙ *OBJECT*: ${object}\n💵 *VALEUR*: ${signe}${valeur}\n*NOUVEAU SOLDE*: ${solde}`);
           } else if (colonneObjet && signe === '=') {
             const query = `
-            UPDATE uffiche
+            UPDATE nbafiche
             SET ${colonneObjet} = $1
             WHERE id = 1
             `;
@@ -490,14 +490,14 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/410a422056516fbd7d
         const solde = `${data[colonneObjet]} ${signe} ${valeur}`;
 
           if (colonneObjet && (signe === '+' || signe === '-')) {
-            const query = `UPDATE uffiche SET ${colonneObjet} = ${data[colonneObjet]} ${signe} ${valeur} WHERE id = 1`;
+            const query = `UPDATE nbafiche SET ${colonneObjet} = ${data[colonneObjet]} ${signe} ${valeur} WHERE id = 1`;
             await client.query(query);
 
             console.log(`Données de l'utilisateur ${joueur} mises à jour`);
            await repondre(`Données du joueur mises à jour\n👤 *JOUEUR*: ${joueur}\n⚙ *OBJECT*: ${object}\n💵 *VALEUR*: ${signe}${valeur}\n*NOUVEAU SOLDE*: ${solde}`);
           } else if (colonneObjet && signe === '=') {
             const query = `
-            UPDATE uffiche
+            UPDATE nbafiche
             SET ${colonneObjet} = $1
             WHERE id = 1
             `;
@@ -664,7 +664,7 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/410a422056516fbd7d
         const solde = `${data[colonneObjet]} ${signe} ${valeur}`;
 
           if (colonneObjet && (signe === '+' || signe === '-')) {
-            const query = `UPDATE uffiche SET ${colonneObjet} = ${data[colonneObjet]} ${signe} ${valeur} WHERE id = 1`;
+            const query = `UPDATE nbafiche SET ${colonneObjet} = ${data[colonneObjet]} ${signe} ${valeur} WHERE id = 1`;
             await client.query(query);
 
             console.log(`Données de l'utilisateur ${joueur} mises à jour`);
@@ -838,14 +838,14 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/410a422056516fbd7d
         const solde = `${data[colonneObjet]} ${signe} ${valeur}`;
 
           if (colonneObjet && (signe === '+' || signe === '-')) {
-            const query = `UPDATE uffiche SET ${colonneObjet} = ${data[colonneObjet]} ${signe} ${valeur} WHERE id = 1`;
+            const query = `UPDATE nbafiche SET ${colonneObjet} = ${data[colonneObjet]} ${signe} ${valeur} WHERE id = 1`;
             await client.query(query);
 
             console.log(`Données de l'utilisateur ${joueur} mises à jour`);
            await repondre(`Données du joueur mises à jour\n👤 *JOUEUR*: ${joueur}\n⚙ *OBJECT*: ${object}\n💵 *VALEUR*: ${signe}${valeur}\n*NOUVEAU SOLDE*: ${solde}`);
           } else if (colonneObjet && signe === '=') {
             const query = `
-            UPDATE uffiche
+            UPDATE nbafiche
             SET ${colonneObjet} = $1
             WHERE id = 1
             `;
