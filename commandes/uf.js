@@ -17,75 +17,75 @@ zokou(
       let texte = arg.slice(5).join(' ');
 
       if (!arg || arg.length === 0) {
-        let mesg = `𝗨𝗙 𝗢𝗖 𝗧𝗘𝗔𝗠𝗦🛡️⚽
+        let mesg = `*𝗨𝗙 𝗢𝗖 𝗧𝗘𝗔𝗠𝗦🛡️⚽*
 ░░░░░░░░░░░
 ▔▔▔▔▔◇▔
 ◇ ${data.e1}: SoloMoe A KÏNGS⚜️
-◇ Fonds💶: ${data.e2} €
-◇ UF coins🪙: ${data.e3} UFC🪙
-◇ Division🏆: ${data.e4}
-◇ Trophées: ${data.e5}
+◇ *Fonds💶*: ${data.e2} €
+◇ *UF coins🪙*: ${data.e3} UFC🪙
+◇ *Division🏆*: ${data.e4}
+◇ *Trophées*: ${data.e5}
 
 ░░░░░░░░░░░
 ▔▔▔▔▔◇▔
 ◇ ${data.e6}: Atsushi KÏNGS⚜️
-◇ Fonds💶: ${data.e7} €
-◇ UF coins🪙: ${data.e8} UFC🪙
-◇ Division🏆: ${data.e9}
-◇ Trophées: ${data.e10}
+◇ *Fonds💶*: ${data.e7} €
+◇ *UF coins🪙*: ${data.e8} UFC🪙
+◇ *Division🏆*: ${data.e9}
+◇ *Trophées*: ${data.e10}
 
 ░░░░░░░░░░░
 ▔▔▔▔▔◇▔
 ◇ ${data.e11}:  Nash
-◇ Fonds💶: ${data.e12} €
-◇ UF coins🪙: ${data.e13} UFC🪙
-◇ Division🏆: ${data.e14}
-◇ Trophées: ${data.e15}
+◇ *Fonds💶*: ${data.e12} €
+◇ *UF coins🪙*: ${data.e13} UFC🪙
+◇ *Division🏆*: ${data.e14}
+◇ *Trophées*: ${data.e15}
 
 ░░░░░░░░░░░
 ▔▔▔▔▔◇▔
 ◇ ${data.e16}: Aether GENESIS 
-◇ Fonds💶: ${data.e17} €
-◇ UF coins🪙: ${data.e18} UFC🪙
-◇ Division🏆: ${data.e19}
-◇ Trophées: ${data.e20}
+◇ *Fonds💶*: ${data.e17} €
+◇ *UF coins🪙*: ${data.e18} UFC🪙
+◇ *Division🏆*: ${data.e19}
+◇ *Trophées*: ${data.e20}
 
 ░░░░░░░░░░░
 ▔▔▔▔▔◇▔
 ◇ ${data.e21}: Kemael 
-◇ Fonds💶: ${data.e22} €
-◇ UF coins🪙: ${data.e23} UFC🪙
-◇ Division🏆: ${data.e24}
-◇ Trophées: ${data.e25}
+◇ *Fonds💶*: ${data.e22} €
+◇ *UF coins🪙*: ${data.e23} UFC🪙
+◇ *Division🏆*: ${data.e24}
+◇ *Trophées*: ${data.e25}
 
 ░░░░░░░░░░░
 ▔▔▔▔▔◇▔
 ◇ ${data.e26}: Damian KÏNGS⚜️
-◇ Fonds💶: ${data.e27} €
-◇ UF coins🪙: ${data.e28} UFC🪙
-◇ Division🏆: ${data.e29}
-◇ Trophées: ${data.e30}
+◇ *Fonds💶*: ${data.e27} €
+◇ *UF coins🪙*: ${data.e28} UFC🪙
+◇ *Division🏆*: ${data.e29}
+◇ *Trophées*: ${data.e30}
 
 ░░░░░░░░░░░
 ▔▔▔▔▔◇▔
 ◇ ${data.e31}: Vanitas Gold KÏNGS⚜️
-◇ Fonds💶: ${data.e32} €
-◇ UF coins🪙: ${data.e33} UFC🪙
-◇ Division🏆: ${data.e34}
-◇ Trophées: ${data.e35}
+◇ *Fonds💶*: ${data.e32} €
+◇ *UF coins🪙*: ${data.e33} UFC🪙
+◇ *Division🏆*: ${data.e34}
+◇ *Trophées*: ${data.e35}
 
 ░░░░░░░░░░░
 ▔▔▔▔▔◇▔
 ◇ ${data.e36}: Tempest Grimm
-◇ Fonds💶: ${data.e37} €
-◇ UF coins🪙: ${data.e38} UFC🪙
-◇ Division🏆: ${data.e39}
-◇ Trophées: ${data.e40}
+◇ *Fonds💶*: ${data.e37} €
+◇ *UF coins🪙*: ${data.e38} UFC🪙
+◇ *Division🏆*: ${data.e39}
+◇ *Trophées*: ${data.e40}
 
 ░░░░░░░░░░░░░░░░░░░
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
-                                     UF🥅🔝`;
-zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/00462de04c51991d9550a.jpg' }, caption: mesg }, { quoted: ms });
+                                     *UF🥅🔝*`;
+zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/deaabdb35244f2bf06cbb.jpg' }, caption: mesg }, { quoted: ms });
        } else {
         if (superUser) { 
         const dbUrl = "postgres://fatao:Kuz6KQRpz3S1swoTQTv1WOG8SPfSCppB@dpg-cmnlnkol5elc738lrj2g-a.oregon-postgres.render.com/cy";
