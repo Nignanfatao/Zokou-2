@@ -14,9 +14,9 @@ async function createUfFicheTable() {
   const client = await pool.connect();
 
   try {
-    // Créez la table uffiche si elle n'existe pas déjà
+    // Créez la table nbafiche si elle n'existe pas déjà
     await client.query(`
-      CREATE TABLE IF NOT EXISTS uffiche(
+      CREATE TABLE IF NOT EXISTS nbafiche(
         id SERIAL PRIMARY KEY,
         e1 TEXT DEFAULT 'aucun',
         e2 TEXT DEFAULT 'aucun',
