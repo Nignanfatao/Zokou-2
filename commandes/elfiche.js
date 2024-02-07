@@ -21,7 +21,7 @@ zokou(
 ░░░░░░░░░░░░░░░░░░░
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 
-⏧⎔ *🎮Pseudo*: TEMPEST🥉
+⏧⎔ *🎮Pseudo*: TEMPEST 🥉
 ⏧⎔ *👤User*: Grimm Tempest
 ⏧⎔ *🌐Cyber capacité*: ${data.e1}
 ⏧⎔ *💠Ξcoins*: ${data.e2}💠Ξ
@@ -32,7 +32,7 @@ zokou(
 ⏧⎔ *🛞PC Conduite*: ${data.e7}
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 
-⏧⎔ *🎮Pseudo*: Dave G Storm🥉
+⏧⎔ *🎮Pseudo*: Dave G Storm 🥉
 ⏧⎔ *👤User*: Goldy Shogun
 ⏧⎔ *🌐Cyber capacité*: ${data.e8}
 ⏧⎔ *💠Ξcoins*: ${data.e9}💠Ξ
@@ -43,7 +43,7 @@ zokou(
 ⏧⎔ *🛞PC Conduite*: ${data.e14}
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 
-⏧⎔ *🎮Pseudo*: Fear the Death🥉
+⏧⎔ *🎮Pseudo*: Fear the Death 🥉
 ⏧⎔ *👤User*: Atsushi KÏNGS
 ⏧⎔ *🌐Cyber capacité*: ${data.e15}
 ⏧⎔ *💠Ξcoins*: ${data.e16}💠Ξ
@@ -54,7 +54,7 @@ zokou(
 ⏧⎔ *🛞PC Conduite*: ${data.e21}
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 
-⏧⎔ *🎮Pseudo*: Fearless Queen🥉
+⏧⎔ *🎮Pseudo*: Fearless Queen 🥉
 ⏧⎔ *👤User*: Lily KÏNGS
 ⏧⎔ *🌐Cyber capacité*: ${data.e22}
 ⏧⎔ *💠Ξcoins*: ${data.e23}💠Ξ
@@ -65,7 +65,7 @@ zokou(
 ⏧⎔ *🛞PC Conduite*: ${data.e28}
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 
-⏧⎔ *🎮Pseudo*: Jonh Ainz🥉
+⏧⎔ *🎮Pseudo*: Jonh Ainz 🥉
 ⏧⎔ *👤User*: Ainz KÏNGS
 ⏧⎔ *🌐Cyber capacité*: ${data.e29}
 ⏧⎔ *💠Ξcoins*: ${data.e30}💠Ξ
@@ -621,7 +621,7 @@ zokou(
 ░░░░░░░░░░░░░░░░░░░
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 
-⏧⎔ *🎮Pseudo*: Killer Cg🥉
+⏧⎔ *🎮Pseudo*: Killer Cg 🥉
 ⏧⎔ *👤User*: Ghost Killer
 ⏧⎔ *🌐Cyber capacité*: ${data.e1}
 ⏧⎔ *💠Ξcoins*: ${data.e2}💠Ξ
@@ -643,7 +643,7 @@ zokou(
 ⏧⎔ *🛞PC Conduite*: ${data.e14}
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 
-⏧⎔ *🎮Pseudo*: Black Mamba🥉
+⏧⎔ *🎮Pseudo*: Black Mamba 🥉
 ⏧⎔ *👤User*: Vanitas Golds KÏNGS
 ⏧⎔ *🌐Cyber capacité*: ${data.e15}
 ⏧⎔ *💠Ξcoins*: ${data.e16}💠Ξ
@@ -654,7 +654,7 @@ zokou(
 ⏧⎔ *🛞PC Conduite*: ${data.e21}
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 
-⏧⎔ *🎮Pseudo*: Karosu🥉
+⏧⎔ *🎮Pseudo*: Karosu 🥉
 ⏧⎔ *👤User*: Kemael
 ⏧⎔ *🌐Cyber capacité*: ${data.e22}
 ⏧⎔ *💠Ξcoins*: ${data.e23}💠Ξ
@@ -665,7 +665,7 @@ zokou(
 ⏧⎔ *🛞PC Conduite*: ${data.e28}
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 
-⏧⎔ *🎮Pseudo*: Black Shadow🥉
+⏧⎔ *🎮Pseudo*: Black Shadow 🥉
 ⏧⎔ *👤User*: White KÏNGS
 ⏧⎔ *🌐Cyber capacité*: ${data.e29}
 ⏧⎔ *💠Ξcoins*: ${data.e30}💠Ξ
@@ -1221,7 +1221,7 @@ zokou(
 ░░░░░░░░░░░░░░░░░░░
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 
-⏧⎔ *🎮Pseudo*:BAXCONE Jones
+⏧⎔ *🎮Pseudo*:BAXCONE Jones 🥉
 ⏧⎔ *👤User*: Covid Sama
 ⏧⎔ *🌐Cyber capacité*: ${data.e1}
 ⏧⎔ *💠Ξcoins*: ${data.e2}💠Ξ
@@ -1232,7 +1232,7 @@ zokou(
 ⏧⎔ *🛞PC Conduite*: ${data.e7}
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 
-⏧⎔ *🎮Pseudo*: Scarlet King
+⏧⎔ *🎮Pseudo*: Scarlet King 🥉
 ⏧⎔ *👤User*: Solo A. KÏNGS
 ⏧⎔ *🌐Cyber capacité*: ${data.e8}
 ⏧⎔ *💠Ξcoins*: ${data.e9}💠Ξ
@@ -1821,7 +1821,7 @@ zokou(
 ░░░░░░░░░░░░░░░░░░░
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 
-⏧⎔ *🎮Pseudo*: Aether
+⏧⎔ *🎮Pseudo*: Aether 🥉
 ⏧⎔ *👤User*: Aether Genesis
 ⏧⎔ *🌐Cyber capacité*: ${data.e1}
 ⏧⎔ *💠Ξcoins*: ${data.e2}💠Ξ
@@ -1832,7 +1832,7 @@ zokou(
 ⏧⎔ *🛞PC Conduite*: ${data.e7}
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 
-⏧⎔ *🎮Pseudo*: Swat
+⏧⎔ *🎮Pseudo*: Swat 🥉
 ⏧⎔ *👤User*: Thanatos Gold King
 ⏧⎔ *🌐Cyber capacité*: ${data.e8}
 ⏧⎔ *💠Ξcoins*: ${data.e9}💠Ξ
@@ -1843,7 +1843,7 @@ zokou(
 ⏧⎔ *🛞PC Conduite*: ${data.e14}
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 
-⏧⎔ *🎮Pseudo*:Jones
+⏧⎔ *🎮Pseudo*:Jones 🥉
 ⏧⎔ *👤User*: Abdiel
 ⏧⎔ *🌐Cyber capacité*: ${data.e15}
 ⏧⎔ *💠Ξcoins*: ${data.e16}💠Ξ
@@ -1854,7 +1854,7 @@ zokou(
 ⏧⎔ *🛞PC Conduite*: ${data.e21}
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 
-⏧⎔ *🎮Pseudo*: YÛ BLASQ
+⏧⎔ *🎮Pseudo*: YÛ BLASQ 🥉
 ⏧⎔ *👤User*: Yû Blasq Astral
 ⏧⎔ *🌐Cyber capacité*: ${data.e22}
 ⏧⎔ *💠Ξcoins*: ${data.e23}💠Ξ
