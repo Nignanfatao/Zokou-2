@@ -58,7 +58,7 @@ async function createNbaFicheTable() {
   try {
     // Modifiez la définition de la table pour ajouter les colonnes
     await client.query(`
-      ALTER TABLE uffiche
+      ALTER TABLE nbafiche
      `);
 
     console.log('Colonnes ajoutées avec succès');
