@@ -115,6 +115,6 @@ insertData();
 module.exports = {
   createNbaFicheTable,
  // insertData1,
-  insertData,
+ // insertData,
   getData
 };
