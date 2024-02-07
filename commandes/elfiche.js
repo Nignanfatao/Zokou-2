@@ -21,7 +21,7 @@ zokou(
 ░░░░░░░░░░░░░░░░░░░
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 
-⏧⎔ *🎮Pseudo (Level)*: TEMPEST🥉
+⏧⎔ *🎮Pseudo*: TEMPEST🥉
 ⏧⎔ *👤User*: Grimm Tempest
 ⏧⎔ *🌐Cyber capacité*: ${data.e1}
 ⏧⎔ *💠Ξcoins*: ${data.e2}💠Ξ
@@ -32,7 +32,7 @@ zokou(
 ⏧⎔ *🛞PC Conduite*: ${data.e7}
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 
-⏧⎔ *🎮Pseudo (Level)*: Dave G Storm🥉
+⏧⎔ *🎮Pseudo*: Dave G Storm🥉
 ⏧⎔ *👤User*: Goldy Shogun
 ⏧⎔ *🌐Cyber capacité*: ${data.e8}
 ⏧⎔ *💠Ξcoins*: ${data.e9}💠Ξ
@@ -43,7 +43,7 @@ zokou(
 ⏧⎔ *🛞PC Conduite*: ${data.e14}
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 
-⏧⎔ *🎮Pseudo (Level)*: Fear the Death🥉
+⏧⎔ *🎮Pseudo*: Fear the Death🥉
 ⏧⎔ *👤User*: Atsushi KÏNGS
 ⏧⎔ *🌐Cyber capacité*: ${data.e15}
 ⏧⎔ *💠Ξcoins*: ${data.e16}💠Ξ
@@ -54,7 +54,7 @@ zokou(
 ⏧⎔ *🛞PC Conduite*: ${data.e21}
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 
-⏧⎔ *🎮Pseudo (Level)*: Fearless Queen🥉
+⏧⎔ *🎮Pseudo*: Fearless Queen🥉
 ⏧⎔ *👤User*: Lily KÏNGS
 ⏧⎔ *🌐Cyber capacité*: ${data.e22}
 ⏧⎔ *💠Ξcoins*: ${data.e23}💠Ξ
@@ -65,7 +65,7 @@ zokou(
 ⏧⎔ *🛞PC Conduite*: ${data.e28}
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 
-⏧⎔ *🎮Pseudo (Level)*: Jonh Ainz🥉
+⏧⎔ *🎮Pseudo*: Jonh Ainz🥉
 ⏧⎔ *👤User*: Ainz KÏNGS
 ⏧⎔ *🌐Cyber capacité*: ${data.e29}
 ⏧⎔ *💠Ξcoins*: ${data.e30}💠Ξ
@@ -221,7 +221,7 @@ zokou(
 ░░░░░░░░░░░░░░░░░░░
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 
-⏧⎔ *🎮Pseudo (Level)*:
+⏧⎔ *🎮Pseudo*:
 ⏧⎔ *👤User*:
 ⏧⎔ *🌐Cyber capacité*: ${data.e1}
 ⏧⎔ *💠Ξcoins*: ${data.e2}💠Ξ
@@ -232,7 +232,7 @@ zokou(
 ⏧⎔ *🛞PC Conduite*: ${data.e7}
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 
-⏧⎔ *🎮Pseudo (Level)*:
+⏧⎔ *🎮Pseudo*:
 ⏧⎔ *👤User*:
 ⏧⎔ *🌐Cyber capacité*: ${data.e8}
 ⏧⎔ *💠Ξcoins*: ${data.e9}💠Ξ
@@ -243,7 +243,7 @@ zokou(
 ⏧⎔ *🛞PC Conduite*: ${data.e14}
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 
-⏧⎔ *🎮Pseudo (Level)*:
+⏧⎔ *🎮Pseudo*:
 ⏧⎔ *👤User*:
 ⏧⎔ *🌐Cyber capacité*: ${data.e15}
 ⏧⎔ *💠Ξcoins*: ${data.e16}💠Ξ
@@ -254,7 +254,7 @@ zokou(
 ⏧⎔ *🛞PC Conduite*: ${data.e21}
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 
-⏧⎔ *🎮Pseudo (Level)*: 
+⏧⎔ *🎮Pseudo*: 
 ⏧⎔ *👤User*: 
 ⏧⎔ *🌐Cyber capacité*: ${data.e22}
 ⏧⎔ *💠Ξcoins*: ${data.e23}💠Ξ
@@ -265,7 +265,7 @@ zokou(
 ⏧⎔ *🛞PC Conduite*: ${data.e28}
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 
-⏧⎔ *🎮Pseudo (Level)*: 
+⏧⎔ *🎮Pseudo*: 
 ⏧⎔ *👤User*:
 ⏧⎔ *🌐Cyber capacité*: ${data.e29}
 ⏧⎔ *💠Ξcoins*: ${data.e30}💠Ξ
@@ -419,9 +419,9 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/00462de04c51991d95
       if (!arg || arg.length === 0) {
         let mesg = `*♻️Serveur FALLEN ANGELES🌃*
 ░░░░░░░░░░░░░░░░░░░
-▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
+▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 
-⏧⎔ *🎮Pseudo (Level)*:
+⏧⎔ *🎮Pseudo*:
 ⏧⎔ *👤User*:
 ⏧⎔ *🌐Cyber capacité*: ${data.e1}
 ⏧⎔ *💠Ξcoins*: ${data.e2}💠Ξ
@@ -432,7 +432,7 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/00462de04c51991d95
 ⏧⎔ *🛞PC Conduite*: ${data.e7}
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 
-⏧⎔ *🎮Pseudo (Level)*:
+⏧⎔ *🎮Pseudo*:
 ⏧⎔ *👤User*:
 ⏧⎔ *🌐Cyber capacité*: ${data.e8}
 ⏧⎔ *💠Ξcoins*: ${data.e9}💠Ξ
@@ -443,7 +443,7 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/00462de04c51991d95
 ⏧⎔ *🛞PC Conduite*: ${data.e14}
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 
-⏧⎔ *🎮Pseudo (Level)*:
+⏧⎔ *🎮Pseudo*:
 ⏧⎔ *👤User*:
 ⏧⎔ *🌐Cyber capacité*: ${data.e15}
 ⏧⎔ *💠Ξcoins*: ${data.e16}💠Ξ
@@ -454,7 +454,7 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/00462de04c51991d95
 ⏧⎔ *🛞PC Conduite*: ${data.e21}
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 
-⏧⎔ *🎮Pseudo (Level)*: 
+⏧⎔ *🎮Pseudo*: 
 ⏧⎔ *👤User*: 
 ⏧⎔ *🌐Cyber capacité*: ${data.e22}
 ⏧⎔ *💠Ξcoins*: ${data.e23}💠Ξ
@@ -465,7 +465,7 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/00462de04c51991d95
 ⏧⎔ *🛞PC Conduite*: ${data.e28}
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 
-⏧⎔ *🎮Pseudo (Level)*: 
+⏧⎔ *🎮Pseudo*: 
 ⏧⎔ *👤User*:
 ⏧⎔ *🌐Cyber capacité*: ${data.e29}
 ⏧⎔ *💠Ξcoins*: ${data.e30}💠Ξ
@@ -621,7 +621,7 @@ zokou(
 ░░░░░░░░░░░░░░░░░░░
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 
-⏧⎔ *🎮Pseudo (Level)*: Killer Cg🥉
+⏧⎔ *🎮Pseudo*: Killer Cg🥉
 ⏧⎔ *👤User*: Ghost Killer
 ⏧⎔ *🌐Cyber capacité*: ${data.e1}
 ⏧⎔ *💠Ξcoins*: ${data.e2}💠Ξ
@@ -632,7 +632,7 @@ zokou(
 ⏧⎔ *🛞PC Conduite*: ${data.e7}
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 
-⏧⎔ *🎮Pseudo (Level)*: Death Minder🥉
+⏧⎔ *🎮Pseudo*: Death Minder🥉
 ⏧⎔ *👤User*: Damian KÏNGS
 ⏧⎔ *🌐Cyber capacité*: ${data.e8}
 ⏧⎔ *💠Ξcoins*: ${data.e9}💠Ξ
@@ -643,7 +643,7 @@ zokou(
 ⏧⎔ *🛞PC Conduite*: ${data.e14}
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 
-⏧⎔ *🎮Pseudo (Level)*: Black Mamba🥉
+⏧⎔ *🎮Pseudo*: Black Mamba🥉
 ⏧⎔ *👤User*: Vanitas Golds KÏNGS
 ⏧⎔ *🌐Cyber capacité*: ${data.e15}
 ⏧⎔ *💠Ξcoins*: ${data.e16}💠Ξ
@@ -654,7 +654,7 @@ zokou(
 ⏧⎔ *🛞PC Conduite*: ${data.e21}
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 
-⏧⎔ *🎮Pseudo (Level)*: karosu🥉
+⏧⎔ *🎮Pseudo*: Karosu🥉
 ⏧⎔ *👤User*: Kemael
 ⏧⎔ *🌐Cyber capacité*: ${data.e22}
 ⏧⎔ *💠Ξcoins*: ${data.e23}💠Ξ
@@ -665,7 +665,7 @@ zokou(
 ⏧⎔ *🛞PC Conduite*: ${data.e28}
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 
-⏧⎔ *🎮Pseudo (Level)*: Black Shadow🥉
+⏧⎔ *🎮Pseudo*: Black Shadow🥉
 ⏧⎔ *👤User*: White KÏNGS
 ⏧⎔ *🌐Cyber capacité*: ${data.e29}
 ⏧⎔ *💠Ξcoins*: ${data.e30}💠Ξ
@@ -821,7 +821,7 @@ zokou(
 ░░░░░░░░░░░░░░░░░░░
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 
-⏧⎔ *🎮Pseudo (Level)*:
+⏧⎔ *🎮Pseudo*:
 ⏧⎔ *👤User*:
 ⏧⎔ *🌐Cyber capacité*: ${data.e1}
 ⏧⎔ *💠Ξcoins*: ${data.e2}💠Ξ
@@ -832,7 +832,7 @@ zokou(
 ⏧⎔ *🛞PC Conduite*: ${data.e7}
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 
-⏧⎔ *🎮Pseudo (Level)*:
+⏧⎔ *🎮Pseudo*:
 ⏧⎔ *👤User*:
 ⏧⎔ *🌐Cyber capacité*: ${data.e8}
 ⏧⎔ *💠Ξcoins*: ${data.e9}💠Ξ
@@ -843,7 +843,7 @@ zokou(
 ⏧⎔ *🛞PC Conduite*: ${data.e14}
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 
-⏧⎔ *🎮Pseudo (Level)*:
+⏧⎔ *🎮Pseudo*:
 ⏧⎔ *👤User*:
 ⏧⎔ *🌐Cyber capacité*: ${data.e15}
 ⏧⎔ *💠Ξcoins*: ${data.e16}💠Ξ
@@ -854,7 +854,7 @@ zokou(
 ⏧⎔ *🛞PC Conduite*: ${data.e21}
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 
-⏧⎔ *🎮Pseudo (Level)*: 
+⏧⎔ *🎮Pseudo*: 
 ⏧⎔ *👤User*: 
 ⏧⎔ *🌐Cyber capacité*: ${data.e22}
 ⏧⎔ *💠Ξcoins*: ${data.e23}💠Ξ
@@ -865,7 +865,7 @@ zokou(
 ⏧⎔ *🛞PC Conduite*: ${data.e28}
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 
-⏧⎔ *🎮Pseudo (Level)*: 
+⏧⎔ *🎮Pseudo*: 
 ⏧⎔ *👤User*:
 ⏧⎔ *🌐Cyber capacité*: ${data.e29}
 ⏧⎔ *💠Ξcoins*: ${data.e30}💠Ξ
@@ -1021,7 +1021,7 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/a523d9c72ed2bc043b
 ░░░░░░░░░░░░░░░░░░░
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 
-⏧⎔ *🎮Pseudo (Level)*:
+⏧⎔ *🎮Pseudo*:
 ⏧⎔ *👤User*:
 ⏧⎔ *🌐Cyber capacité*: ${data.e1}
 ⏧⎔ *💠Ξcoins*: ${data.e2}💠Ξ
@@ -1032,7 +1032,7 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/a523d9c72ed2bc043b
 ⏧⎔ *🛞PC Conduite*: ${data.e7}
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 
-⏧⎔ *🎮Pseudo (Level)*:
+⏧⎔ *🎮Pseudo*:
 ⏧⎔ *👤User*:
 ⏧⎔ *🌐Cyber capacité*: ${data.e8}
 ⏧⎔ *💠Ξcoins*: ${data.e9}💠Ξ
@@ -1043,7 +1043,7 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/a523d9c72ed2bc043b
 ⏧⎔ *🛞PC Conduite*: ${data.e14}
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 
-⏧⎔ *🎮Pseudo (Level)*:
+⏧⎔ *🎮Pseudo*:
 ⏧⎔ *👤User*:
 ⏧⎔ *🌐Cyber capacité*: ${data.e15}
 ⏧⎔ *💠Ξcoins*: ${data.e16}💠Ξ
@@ -1054,7 +1054,7 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/a523d9c72ed2bc043b
 ⏧⎔ *🛞PC Conduite*: ${data.e21}
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 
-⏧⎔ *🎮Pseudo (Level)*: 
+⏧⎔ *🎮Pseudo*: 
 ⏧⎔ *👤User*: 
 ⏧⎔ *🌐Cyber capacité*: ${data.e22}
 ⏧⎔ *💠Ξcoins*: ${data.e23}💠Ξ
@@ -1065,7 +1065,7 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/a523d9c72ed2bc043b
 ⏧⎔ *🛞PC Conduite*: ${data.e28}
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 
-⏧⎔ *🎮Pseudo (Level)*: 
+⏧⎔ *🎮Pseudo*: 
 ⏧⎔ *👤User*:
 ⏧⎔ *🌐Cyber capacité*: ${data.e29}
 ⏧⎔ *💠Ξcoins*: ${data.e30}💠Ξ
@@ -1221,7 +1221,7 @@ zokou(
 ░░░░░░░░░░░░░░░░░░░
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 
-⏧⎔ *🎮Pseudo (Level)*:
+⏧⎔ *🎮Pseudo*:
 ⏧⎔ *👤User*:
 ⏧⎔ *🌐Cyber capacité*: ${data.e1}
 ⏧⎔ *💠Ξcoins*: ${data.e2}💠Ξ
@@ -1232,7 +1232,7 @@ zokou(
 ⏧⎔ *🛞PC Conduite*: ${data.e7}
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 
-⏧⎔ *🎮Pseudo (Level)*:
+⏧⎔ *🎮Pseudo*:
 ⏧⎔ *👤User*:
 ⏧⎔ *🌐Cyber capacité*: ${data.e8}
 ⏧⎔ *💠Ξcoins*: ${data.e9}💠Ξ
@@ -1243,7 +1243,7 @@ zokou(
 ⏧⎔ *🛞PC Conduite*: ${data.e14}
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 
-⏧⎔ *🎮Pseudo (Level)*:
+⏧⎔ *🎮Pseudo*:
 ⏧⎔ *👤User*:
 ⏧⎔ *🌐Cyber capacité*: ${data.e15}
 ⏧⎔ *💠Ξcoins*: ${data.e16}💠Ξ
@@ -1254,7 +1254,7 @@ zokou(
 ⏧⎔ *🛞PC Conduite*: ${data.e21}
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 
-⏧⎔ *🎮Pseudo (Level)*: 
+⏧⎔ *🎮Pseudo*: 
 ⏧⎔ *👤User*: 
 ⏧⎔ *🌐Cyber capacité*: ${data.e22}
 ⏧⎔ *💠Ξcoins*: ${data.e23}💠Ξ
@@ -1265,7 +1265,7 @@ zokou(
 ⏧⎔ *🛞PC Conduite*: ${data.e28}
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 
-⏧⎔ *🎮Pseudo (Level)*: 
+⏧⎔ *🎮Pseudo*: 
 ⏧⎔ *👤User*:
 ⏧⎔ *🌐Cyber capacité*: ${data.e29}
 ⏧⎔ *💠Ξcoins*: ${data.e30}💠Ξ
@@ -1421,7 +1421,7 @@ zokou(
 ░░░░░░░░░░░░░░░░░░░
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 
-⏧⎔ *🎮Pseudo (Level)*:
+⏧⎔ *🎮Pseudo*:
 ⏧⎔ *👤User*:
 ⏧⎔ *🌐Cyber capacité*: ${data.e1}
 ⏧⎔ *💠Ξcoins*: ${data.e2}💠Ξ
@@ -1432,7 +1432,7 @@ zokou(
 ⏧⎔ *🛞PC Conduite*: ${data.e7}
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 
-⏧⎔ *🎮Pseudo (Level)*:
+⏧⎔ *🎮Pseudo*:
 ⏧⎔ *👤User*:
 ⏧⎔ *🌐Cyber capacité*: ${data.e8}
 ⏧⎔ *💠Ξcoins*: ${data.e9}💠Ξ
@@ -1443,7 +1443,7 @@ zokou(
 ⏧⎔ *🛞PC Conduite*: ${data.e14}
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 
-⏧⎔ *🎮Pseudo (Level)*:
+⏧⎔ *🎮Pseudo*:
 ⏧⎔ *👤User*:
 ⏧⎔ *🌐Cyber capacité*: ${data.e15}
 ⏧⎔ *💠Ξcoins*: ${data.e16}💠Ξ
@@ -1454,7 +1454,7 @@ zokou(
 ⏧⎔ *🛞PC Conduite*: ${data.e21}
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 
-⏧⎔ *🎮Pseudo (Level)*: 
+⏧⎔ *🎮Pseudo*: 
 ⏧⎔ *👤User*: 
 ⏧⎔ *🌐Cyber capacité*: ${data.e22}
 ⏧⎔ *💠Ξcoins*: ${data.e23}💠Ξ
@@ -1465,7 +1465,7 @@ zokou(
 ⏧⎔ *🛞PC Conduite*: ${data.e28}
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 
-⏧⎔ *🎮Pseudo (Level)*: 
+⏧⎔ *🎮Pseudo*: 
 ⏧⎔ *👤User*:
 ⏧⎔ *🌐Cyber capacité*: ${data.e29}
 ⏧⎔ *💠Ξcoins*: ${data.e30}💠Ξ
@@ -1621,7 +1621,7 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/b485db069c314461ca
 ░░░░░░░░░░░░░░░░░░░
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 
-⏧⎔ *🎮Pseudo (Level)*:
+⏧⎔ *🎮Pseudo*:
 ⏧⎔ *👤User*:
 ⏧⎔ *🌐Cyber capacité*: ${data.e1}
 ⏧⎔ *💠Ξcoins*: ${data.e2}💠Ξ
@@ -1632,7 +1632,7 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/b485db069c314461ca
 ⏧⎔ *🛞PC Conduite*: ${data.e7}
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 
-⏧⎔ *🎮Pseudo (Level)*:
+⏧⎔ *🎮Pseudo*:
 ⏧⎔ *👤User*:
 ⏧⎔ *🌐Cyber capacité*: ${data.e8}
 ⏧⎔ *💠Ξcoins*: ${data.e9}💠Ξ
@@ -1643,7 +1643,7 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/b485db069c314461ca
 ⏧⎔ *🛞PC Conduite*: ${data.e14}
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 
-⏧⎔ *🎮Pseudo (Level)*:
+⏧⎔ *🎮Pseudo*:
 ⏧⎔ *👤User*:
 ⏧⎔ *🌐Cyber capacité*: ${data.e15}
 ⏧⎔ *💠Ξcoins*: ${data.e16}💠Ξ
@@ -1654,7 +1654,7 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/b485db069c314461ca
 ⏧⎔ *🛞PC Conduite*: ${data.e21}
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 
-⏧⎔ *🎮Pseudo (Level)*: 
+⏧⎔ *🎮Pseudo*: 
 ⏧⎔ *👤User*: 
 ⏧⎔ *🌐Cyber capacité*: ${data.e22}
 ⏧⎔ *💠Ξcoins*: ${data.e23}💠Ξ
@@ -1665,7 +1665,7 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/b485db069c314461ca
 ⏧⎔ *🛞PC Conduite*: ${data.e28}
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 
-⏧⎔ *🎮Pseudo (Level)*: 
+⏧⎔ *🎮Pseudo*: 
 ⏧⎔ *👤User*:
 ⏧⎔ *🌐Cyber capacité*: ${data.e29}
 ⏧⎔ *💠Ξcoins*: ${data.e30}💠Ξ
@@ -1821,7 +1821,7 @@ zokou(
 ░░░░░░░░░░░░░░░░░░░
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 
-⏧⎔ *🎮Pseudo (Level)*:
+⏧⎔ *🎮Pseudo*:
 ⏧⎔ *👤User*:
 ⏧⎔ *🌐Cyber capacité*: ${data.e1}
 ⏧⎔ *💠Ξcoins*: ${data.e2}💠Ξ
@@ -1832,7 +1832,7 @@ zokou(
 ⏧⎔ *🛞PC Conduite*: ${data.e7}
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 
-⏧⎔ *🎮Pseudo (Level)*:
+⏧⎔ *🎮Pseudo*:
 ⏧⎔ *👤User*:
 ⏧⎔ *🌐Cyber capacité*: ${data.e8}
 ⏧⎔ *💠Ξcoins*: ${data.e9}💠Ξ
@@ -1843,7 +1843,7 @@ zokou(
 ⏧⎔ *🛞PC Conduite*: ${data.e14}
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 
-⏧⎔ *🎮Pseudo (Level)*:
+⏧⎔ *🎮Pseudo*:
 ⏧⎔ *👤User*:
 ⏧⎔ *🌐Cyber capacité*: ${data.e15}
 ⏧⎔ *💠Ξcoins*: ${data.e16}💠Ξ
@@ -1854,7 +1854,7 @@ zokou(
 ⏧⎔ *🛞PC Conduite*: ${data.e21}
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 
-⏧⎔ *🎮Pseudo (Level)*: 
+⏧⎔ *🎮Pseudo*: 
 ⏧⎔ *👤User*: 
 ⏧⎔ *🌐Cyber capacité*: ${data.e22}
 ⏧⎔ *💠Ξcoins*: ${data.e23}💠Ξ
@@ -1865,7 +1865,7 @@ zokou(
 ⏧⎔ *🛞PC Conduite*: ${data.e28}
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 
-⏧⎔ *🎮Pseudo (Level)*: 
+⏧⎔ *🎮Pseudo*: 
 ⏧⎔ *👤User*:
 ⏧⎔ *🌐Cyber capacité*: ${data.e29}
 ⏧⎔ *💠Ξcoins*: ${data.e30}💠Ξ
@@ -2021,7 +2021,7 @@ zokou(
 ░░░░░░░░░░░░░░░░░░░
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 
-⏧⎔ *🎮Pseudo (Level)*:
+⏧⎔ *🎮Pseudo*:
 ⏧⎔ *👤User*:
 ⏧⎔ *🌐Cyber capacité*: ${data.e1}
 ⏧⎔ *💠Ξcoins*: ${data.e2}💠Ξ
@@ -2032,7 +2032,7 @@ zokou(
 ⏧⎔ *🛞PC Conduite*: ${data.e7}
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 
-⏧⎔ *🎮Pseudo (Level)*:
+⏧⎔ *🎮Pseudo*:
 ⏧⎔ *👤User*:
 ⏧⎔ *🌐Cyber capacité*: ${data.e8}
 ⏧⎔ *💠Ξcoins*: ${data.e9}💠Ξ
@@ -2043,7 +2043,7 @@ zokou(
 ⏧⎔ *🛞PC Conduite*: ${data.e14}
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 
-⏧⎔ *🎮Pseudo (Level)*:
+⏧⎔ *🎮Pseudo*:
 ⏧⎔ *👤User*:
 ⏧⎔ *🌐Cyber capacité*: ${data.e15}
 ⏧⎔ *💠Ξcoins*: ${data.e16}💠Ξ
@@ -2054,7 +2054,7 @@ zokou(
 ⏧⎔ *🛞PC Conduite*: ${data.e21}
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 
-⏧⎔ *🎮Pseudo (Level)*: 
+⏧⎔ *🎮Pseudo*: 
 ⏧⎔ *👤User*: 
 ⏧⎔ *🌐Cyber capacité*: ${data.e22}
 ⏧⎔ *💠Ξcoins*: ${data.e23}💠Ξ
@@ -2065,7 +2065,7 @@ zokou(
 ⏧⎔ *🛞PC Conduite*: ${data.e28}
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 
-⏧⎔ *🎮Pseudo (Level)*: 
+⏧⎔ *🎮Pseudo*: 
 ⏧⎔ *👤User*:
 ⏧⎔ *🌐Cyber capacité*: ${data.e29}
 ⏧⎔ *💠Ξcoins*: ${data.e30}💠Ξ
@@ -2221,7 +2221,7 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/3a817ee775dff1c0ad
 ░░░░░░░░░░░░░░░░░░░
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 
-⏧⎔ *🎮Pseudo (Level)*:
+⏧⎔ *🎮Pseudo*:
 ⏧⎔ *👤User*:
 ⏧⎔ *🌐Cyber capacité*: ${data.e1}
 ⏧⎔ *💠Ξcoins*: ${data.e2}💠Ξ
@@ -2232,7 +2232,7 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/3a817ee775dff1c0ad
 ⏧⎔ *🛞PC Conduite*: ${data.e7}
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 
-⏧⎔ *🎮Pseudo (Level)*:
+⏧⎔ *🎮Pseudo*:
 ⏧⎔ *👤User*:
 ⏧⎔ *🌐Cyber capacité*: ${data.e8}
 ⏧⎔ *💠Ξcoins*: ${data.e9}💠Ξ
@@ -2243,7 +2243,7 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/3a817ee775dff1c0ad
 ⏧⎔ *🛞PC Conduite*: ${data.e14}
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 
-⏧⎔ *🎮Pseudo (Level)*:
+⏧⎔ *🎮Pseudo*:
 ⏧⎔ *👤User*:
 ⏧⎔ *🌐Cyber capacité*: ${data.e15}
 ⏧⎔ *💠Ξcoins*: ${data.e16}💠Ξ
@@ -2254,7 +2254,7 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/3a817ee775dff1c0ad
 ⏧⎔ *🛞PC Conduite*: ${data.e21}
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 
-⏧⎔ *🎮Pseudo (Level)*: 
+⏧⎔ *🎮Pseudo*: 
 ⏧⎔ *👤User*: 
 ⏧⎔ *🌐Cyber capacité*: ${data.e22}
 ⏧⎔ *💠Ξcoins*: ${data.e23}💠Ξ
@@ -2265,7 +2265,7 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/3a817ee775dff1c0ad
 ⏧⎔ *🛞PC Conduite*: ${data.e28}
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 
-⏧⎔ *🎮Pseudo (Level)*: 
+⏧⎔ *🎮Pseudo*: 
 ⏧⎔ *👤User*:
 ⏧⎔ *🌐Cyber capacité*: ${data.e29}
 ⏧⎔ *💠Ξcoins*: ${data.e30}💠Ξ
@@ -2421,7 +2421,7 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/3a817ee775dff1c0ad
 ░░░░░░░░░░░░░░░░░░░
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 
-⏧⎔ *🎮Pseudo (Level)*:
+⏧⎔ *🎮Pseudo*:
 ⏧⎔ *👤User*:
 ⏧⎔ *🌐Cyber capacité*: ${data.e1}
 ⏧⎔ *💠Ξcoins*: ${data.e2}💠Ξ
@@ -2432,7 +2432,7 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/3a817ee775dff1c0ad
 ⏧⎔ *🛞PC Conduite*: ${data.e7}
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 
-⏧⎔ *🎮Pseudo (Level)*:
+⏧⎔ *🎮Pseudo*:
 ⏧⎔ *👤User*:
 ⏧⎔ *🌐Cyber capacité*: ${data.e8}
 ⏧⎔ *💠Ξcoins*: ${data.e9}💠Ξ
@@ -2443,7 +2443,7 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/3a817ee775dff1c0ad
 ⏧⎔ *🛞PC Conduite*: ${data.e14}
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 
-⏧⎔ *🎮Pseudo (Level)*:
+⏧⎔ *🎮Pseudo*:
 ⏧⎔ *👤User*:
 ⏧⎔ *🌐Cyber capacité*: ${data.e15}
 ⏧⎔ *💠Ξcoins*: ${data.e16}💠Ξ
@@ -2454,7 +2454,7 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/3a817ee775dff1c0ad
 ⏧⎔ *🛞PC Conduite*: ${data.e21}
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 
-⏧⎔ *🎮Pseudo (Level)*: 
+⏧⎔ *🎮Pseudo*: 
 ⏧⎔ *👤User*: 
 ⏧⎔ *🌐Cyber capacité*: ${data.e22}
 ⏧⎔ *💠Ξcoins*: ${data.e23}💠Ξ
@@ -2465,7 +2465,7 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/3a817ee775dff1c0ad
 ⏧⎔ *🛞PC Conduite*: ${data.e28}
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 
-⏧⎔ *🎮Pseudo (Level)*: 
+⏧⎔ *🎮Pseudo*: 
 ⏧⎔ *👤User*:
 ⏧⎔ *🌐Cyber capacité*: ${data.e29}
 ⏧⎔ *💠Ξcoins*: ${data.e30}💠Ξ
