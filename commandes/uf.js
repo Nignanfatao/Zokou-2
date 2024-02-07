@@ -1,4 +1,4 @@
-const { zokou } = require('../framework/zokou');
+/*const { zokou } = require('../framework/zokou');
 const { getData } = require('../bdd/uffiche');
 zokou(
   {
@@ -224,4 +224,4 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/deaabdb35244f2bf06
     } catch (error) {
       console.error("Erreur lors de la mise à jour des données de l'utilisateur:", error);
     }
-  });
+  });*/
