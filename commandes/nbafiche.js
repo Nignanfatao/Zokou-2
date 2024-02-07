@@ -316,7 +316,7 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/410a422056516fbd7d
         const solde = `${data[colonneObjet]} ${signe} ${valeur}`;
 
           if (colonneObjet && (signe === '+' || signe === '-')) {
-            const query = `UPDATE nbafiche SET ${colonneObjet} = ${data[colonneObjet]} ${signe} ${valeur} WHERE id = 1`;
+            const query = `UPDATE nbafiche SET ${colonneObjet} = ${data[colonneObjet]} ${signe} ${valeur} WHERE id = 2`;
             await client.query(query);
 
             console.log(`Données de l'utilisateur ${joueur} mises à jour`);
@@ -325,7 +325,7 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/410a422056516fbd7d
             const query = `
             UPDATE nbafiche
             SET ${colonneObjet} = $1
-            WHERE id = 1
+            WHERE id = 2
             `;
 
             await client.query(query, [texte]);
@@ -490,7 +490,7 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/410a422056516fbd7d
         const solde = `${data[colonneObjet]} ${signe} ${valeur}`;
 
           if (colonneObjet && (signe === '+' || signe === '-')) {
-            const query = `UPDATE nbafiche SET ${colonneObjet} = ${data[colonneObjet]} ${signe} ${valeur} WHERE id = 1`;
+            const query = `UPDATE nbafiche SET ${colonneObjet} = ${data[colonneObjet]} ${signe} ${valeur} WHERE id = 3`;
             await client.query(query);
 
             console.log(`Données de l'utilisateur ${joueur} mises à jour`);
@@ -499,7 +499,7 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/410a422056516fbd7d
             const query = `
             UPDATE nbafiche
             SET ${colonneObjet} = $1
-            WHERE id = 1
+            WHERE id = 3
             `;
 
             await client.query(query, [texte]);
@@ -664,7 +664,7 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/410a422056516fbd7d
         const solde = `${data[colonneObjet]} ${signe} ${valeur}`;
 
           if (colonneObjet && (signe === '+' || signe === '-')) {
-            const query = `UPDATE nbafiche SET ${colonneObjet} = ${data[colonneObjet]} ${signe} ${valeur} WHERE id = 1`;
+            const query = `UPDATE nbafiche SET ${colonneObjet} = ${data[colonneObjet]} ${signe} ${valeur} WHERE id = 4`;
             await client.query(query);
 
             console.log(`Données de l'utilisateur ${joueur} mises à jour`);
@@ -673,7 +673,7 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/410a422056516fbd7d
             const query = `
             UPDATE uffiche
             SET ${colonneObjet} = $1
-            WHERE id = 1
+            WHERE id = 4
             `;
 
             await client.query(query, [texte]);
@@ -838,7 +838,7 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/410a422056516fbd7d
         const solde = `${data[colonneObjet]} ${signe} ${valeur}`;
 
           if (colonneObjet && (signe === '+' || signe === '-')) {
-            const query = `UPDATE nbafiche SET ${colonneObjet} = ${data[colonneObjet]} ${signe} ${valeur} WHERE id = 1`;
+            const query = `UPDATE nbafiche SET ${colonneObjet} = ${data[colonneObjet]} ${signe} ${valeur} WHERE id = 5`;
             await client.query(query);
 
             console.log(`Données de l'utilisateur ${joueur} mises à jour`);
@@ -847,7 +847,7 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/410a422056516fbd7d
             const query = `
             UPDATE nbafiche
             SET ${colonneObjet} = $1
-            WHERE id = 1
+            WHERE id = 5
             `;
 
             await client.query(query, [texte]);
