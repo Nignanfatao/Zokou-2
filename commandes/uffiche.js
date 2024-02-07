@@ -211,7 +211,7 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/deaabdb35244f2bf06
             await client.query(query, [texte]);
 
             console.log(`données du joueur: ${joueur} mise à jour`);
-            await repondre(`Données du joueur mises à jour\n👤 *JOUEUR*: ${joueur}\n⚙ *OBJECT*: ${object}\n💵 *VALEUR*: ${texte} \n *NOUVELLE DONNÉE*: ${texte}`);
+            await repondre(`Données du joueur mises à jour\n👤 *JOUEUR*: ${joueur}\n⚙ *OBJECT*: ${object}\n💵 *VALEUR*: ${texte} \n *Équipe/Division*: ${texte}`);
           } else {
             console.log("Nom d'objet non reconnu ou signe invalide.");
             repondre(`Une erreur est survenue. Veuillez entrer correctement les données.`);
@@ -439,7 +439,7 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/deaabdb35244f2bf06
             await client.query(query, [texte]);
 
             console.log(`données du joueur: ${joueur} mise à jour`);
-            await repondre(`Données du joueur mises à jour\n👤 *JOUEUR*: ${joueur}\n⚙ *OBJECT*: ${object}\n💵 *VALEUR*: ${texte} \n *NOUVELLE DONNÉE*: ${texte}`);
+            await repondre(`Données du joueur mises à jour\n👤 *JOUEUR*: ${joueur}\n⚙ *OBJECT*: ${object}\n💵 *VALEUR*: ${texte} \n *Équipe/Division*: ${texte}`);
           } else {
             console.log("Nom d'objet non reconnu ou signe invalide.");
             repondre(`Une erreur est survenue. Veuillez entrer correctement les données.`);
@@ -667,7 +667,7 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/deaabdb35244f2bf06
             await client.query(query, [texte]);
 
             console.log(`données du joueur: ${joueur} mise à jour`);
-            await repondre(`Données du joueur mises à jour\n👤 *JOUEUR*: ${joueur}\n⚙ *OBJECT*: ${object}\n💵 *VALEUR*: ${texte} \n *NOUVELLE DONNÉE*: ${texte}`);
+            await repondre(`Données du joueur mises à jour\n👤 *JOUEUR*: ${joueur}\n⚙ *OBJECT*: ${object}\n💵 *VALEUR*: ${texte} \n *Équipe/Division*: ${texte}`);
           } else {
             console.log("Nom d'objet non reconnu ou signe invalide.");
             repondre(`Une erreur est survenue. Veuillez entrer correctement les données.`);
@@ -895,7 +895,7 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/deaabdb35244f2bf06
             await client.query(query, [texte]);
 
             console.log(`données du joueur: ${joueur} mise à jour`);
-            await repondre(`Données du joueur mises à jour\n👤 *JOUEUR*: ${joueur}\n⚙ *OBJECT*: ${object}\n💵 *VALEUR*: ${texte} \n *NOUVELLE DONNÉE*: ${texte}`);
+            await repondre(`Données du joueur mises à jour\n👤 *JOUEUR*: ${joueur}\n⚙ *OBJECT*: ${object}\n💵 *VALEUR*: ${texte} \n *Équipe/Division*: ${texte}`);
           } else {
             console.log("Nom d'objet non reconnu ou signe invalide.");
             repondre(`Une erreur est survenue. Veuillez entrer correctement les données.`);
@@ -1123,7 +1123,7 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/deaabdb35244f2bf06
             await client.query(query, [texte]);
 
             console.log(`données du joueur: ${joueur} mise à jour`);
-            await repondre(`Données du joueur mises à jour\n👤 *JOUEUR*: ${joueur}\n⚙ *OBJECT*: ${object}\n💵 *VALEUR*: ${texte} \n *NOUVELLE DONNÉE*: ${texte}`);
+            await repondre(`Données du joueur mises à jour\n👤 *JOUEUR*: ${joueur}\n⚙ *OBJECT*: ${object}\n💵 *VALEUR*: ${texte} \n *Équipe/Division*: ${texte}`);
           } else {
             console.log("Nom d'objet non reconnu ou signe invalide.");
             repondre(`Une erreur est survenue. Veuillez entrer correctement les données.`);
