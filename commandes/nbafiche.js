@@ -78,7 +78,7 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/410a422056516fbd7d
         if (arg[0] === 'joueur:') {
           let colonnesJoueur;
           
-          /*switch (joueur) {
+          switch (joueur) {
     case "":
       colonnesJoueur = {
         team: "e1",
@@ -131,7 +131,7 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/410a422056516fbd7d
         nba_coins: "e23",
         trophees: "e24",
       };
-        break;*/ 
+        break;
           default:
       console.log("Nom de joueur non reconnu.");
               repondre(`joueur: ${joueur} non reconnu`);
@@ -252,7 +252,7 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/410a422056516fbd7d
         if (arg[0] === 'joueur:') {
           let colonnesJoueur;
           
-          /*switch (joueur) {
+          switch (joueur) {
     case "":
       colonnesJoueur = {
         team: "e1",
@@ -305,7 +305,7 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/410a422056516fbd7d
         nba_coins: "e23",
         trophees: "e24",
       };
-        break;*/
+        break;
           default:
       console.log("Nom de joueur non reconnu.");
               repondre(`joueur: ${joueur} non reconnu`);
