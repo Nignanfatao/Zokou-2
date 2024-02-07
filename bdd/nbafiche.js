@@ -10,7 +10,7 @@ const proConfig = {
 
 const pool = new Pool(proConfig);
 
-async function createUfFicheTable() {
+async function createNbaFicheTable() {
   const client = await pool.connect();
 
   try {
