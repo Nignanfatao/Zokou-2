@@ -732,7 +732,7 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/a523d9c72ed2bc043b
       };
         break; 
 
-       case "Kemeal":
+       case "Kemael":
       colonnesJoueur = {
         capacite: "e22",
         ecoins: "e23",
