@@ -1217,12 +1217,12 @@ zokou(
       let texte = arg.slice(5).join(' ');
 
       if (!arg || arg.length === 0) {
-        let mesg = `*♻️Serveur 🌃*
+        let mesg = `*♻️Serveur Z-TOWN🌃*
 ░░░░░░░░░░░░░░░░░░░
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 
-⏧⎔ *🎮Pseudo*:
-⏧⎔ *👤User*:
+⏧⎔ *🎮Pseudo*:BAXCONE Jones
+⏧⎔ *👤User*: Covid Sama
 ⏧⎔ *🌐Cyber capacité*: ${data.e1}
 ⏧⎔ *💠Ξcoins*: ${data.e2}💠Ξ
 ⏧⎔ *🌟SP*: ${data.e3}
@@ -1232,8 +1232,8 @@ zokou(
 ⏧⎔ *🛞PC Conduite*: ${data.e7}
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 
-⏧⎔ *🎮Pseudo*:
-⏧⎔ *👤User*:
+⏧⎔ *🎮Pseudo*: Scarlet King
+⏧⎔ *👤User*: Solo A. KÏNGS
 ⏧⎔ *🌐Cyber capacité*: ${data.e8}
 ⏧⎔ *💠Ξcoins*: ${data.e9}💠Ξ
 ⏧⎔ *🌟SP*: ${data.e10}
@@ -1296,7 +1296,7 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/b485db069c314461ca
           let colonnesJoueur;
           
           switch (joueur) {
-    case "":
+    case "Covid":
       colonnesJoueur = {
         capacite: "e1",
         ecoins: "e2",
@@ -1308,7 +1308,7 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/b485db069c314461ca
       };
         break;
               
-      case "":
+      case "SoloMoe":
       colonnesJoueur = {
         capacite: "e8",
         ecoins: "e9",
@@ -1817,12 +1817,12 @@ zokou(
       let texte = arg.slice(5).join(' ');
 
       if (!arg || arg.length === 0) {
-        let mesg = `*♻️Serveur 🌃*
+        let mesg = `*♻️Serveur NOUVEAU MONDE🌃*
 ░░░░░░░░░░░░░░░░░░░
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 
-⏧⎔ *🎮Pseudo*:
-⏧⎔ *👤User*:
+⏧⎔ *🎮Pseudo*: Aether
+⏧⎔ *👤User*: Aether Genesis
 ⏧⎔ *🌐Cyber capacité*: ${data.e1}
 ⏧⎔ *💠Ξcoins*: ${data.e2}💠Ξ
 ⏧⎔ *🌟SP*: ${data.e3}
@@ -1832,8 +1832,8 @@ zokou(
 ⏧⎔ *🛞PC Conduite*: ${data.e7}
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 
-⏧⎔ *🎮Pseudo*:
-⏧⎔ *👤User*:
+⏧⎔ *🎮Pseudo*: Swat
+⏧⎔ *👤User*: Thanatos Gold King
 ⏧⎔ *🌐Cyber capacité*: ${data.e8}
 ⏧⎔ *💠Ξcoins*: ${data.e9}💠Ξ
 ⏧⎔ *🌟SP*: ${data.e10}
@@ -1843,8 +1843,8 @@ zokou(
 ⏧⎔ *🛞PC Conduite*: ${data.e14}
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 
-⏧⎔ *🎮Pseudo*:
-⏧⎔ *👤User*:
+⏧⎔ *🎮Pseudo*:Jones
+⏧⎔ *👤User*: Abdiel
 ⏧⎔ *🌐Cyber capacité*: ${data.e15}
 ⏧⎔ *💠Ξcoins*: ${data.e16}💠Ξ
 ⏧⎔ *🌟SP*: ${data.e17}
@@ -1854,8 +1854,8 @@ zokou(
 ⏧⎔ *🛞PC Conduite*: ${data.e21}
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 
-⏧⎔ *🎮Pseudo*: 
-⏧⎔ *👤User*: 
+⏧⎔ *🎮Pseudo*: YÛ BLASQ
+⏧⎔ *👤User*: Yû Blasq Astral
 ⏧⎔ *🌐Cyber capacité*: ${data.e22}
 ⏧⎔ *💠Ξcoins*: ${data.e23}💠Ξ
 ⏧⎔ *🌟SP*: ${data.e24}
@@ -1896,7 +1896,7 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/3a817ee775dff1c0ad
           let colonnesJoueur;
           
           switch (joueur) {
-    case "":
+    case "Aether":
       colonnesJoueur = {
         capacite: "e1",
         ecoins: "e2",
@@ -1908,7 +1908,7 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/3a817ee775dff1c0ad
       };
         break;
               
-      case "":
+      case "Thanatos":
       colonnesJoueur = {
         capacite: "e8",
         ecoins: "e9",
@@ -1920,7 +1920,7 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/3a817ee775dff1c0ad
       };
         break;  
 
-      case "":
+      case "Abdiel:
       colonnesJoueur = {
         capacite: "e15",
         ecoins: "e16",
@@ -1932,7 +1932,7 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/3a817ee775dff1c0ad
       };
         break; 
 
-       case "":
+       case "Yû":
       colonnesJoueur = {
         capacite: "e22",
         ecoins: "e23",
