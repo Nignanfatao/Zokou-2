@@ -424,7 +424,7 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/deaabdb35244f2bf06
         const solde = `${data[colonneObjet]} ${signe} ${valeur}`;
 
           if (colonneObjet && (signe === '+' || signe === '-')) {
-            const query = `UPDATE uffiche SET ${colonneObjet} = ${data[colonneObjet]} ${signe} ${valeur} WHERE id = 1`;
+            const query = `UPDATE uffiche SET ${colonneObjet} = ${data[colonneObjet]} ${signe} ${valeur} WHERE id = 2`;
             await client.query(query);
 
             console.log(`Données de l'utilisateur ${joueur} mises à jour`);
@@ -433,7 +433,7 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/deaabdb35244f2bf06
             const query = `
             UPDATE uffiche
             SET ${colonneObjet} = $1
-            WHERE id = 1
+            WHERE id = 2
             `;
 
             await client.query(query, [texte]);
