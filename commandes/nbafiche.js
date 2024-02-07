@@ -19,7 +19,7 @@ zokou(
       let texte = arg.slice(5).join(' ');
 
       if (!arg || arg.length === 0) {
-        let mesg = `*NBA𝟮K 𝗧𝗘𝗔𝗠𝗦🏀⭕.𝗖𝗢𝗡𝗙𝗘𝗥𝗘𝗡𝗖𝗘 𝗢𝗡𝗘*
+        let mesg = `*NBA2K 𝗧𝗘𝗔𝗠𝗦🏀⭕* *𝗖𝗢𝗡𝗙𝗘𝗥𝗘𝗡𝗖𝗘 𝗢𝗡𝗘*
 ░░░░░░░░░░░░░░░░░░░
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 🏀 *Team*: ${data.e1}
@@ -157,7 +157,7 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/410a422056516fbd7d
             await client.query(query, [texte]);
 
             console.log(`données du joueur: ${joueur} mise à jour`);
-            await repondre(`Données du joueur mises à jour\n👤 *JOUEUR*: ${joueur}\n⚙ *OBJECT*: ${object}\n💵 *VALEUR*: ${texte} \n *NOUVELLE Capacité*: ${texte}`);
+            await repondre(`Données du joueur mises à jour\n👤 *JOUEUR*: ${joueur}\n⚙ *OBJECT*: ${object}\n💵 *VALEUR*: ${texte} \n *Team/User*: ${texte}`);
           } else {
             console.log("Nom d'objet non reconnu ou signe invalide.");
             repondre(`Une erreur est survenue. Veuillez entrer correctement les données.`);
@@ -193,7 +193,7 @@ zokou(
       let texte = arg.slice(5).join(' ');
 
       if (!arg || arg.length === 0) {
-        let mesg = `*NBA𝟮K 𝗧𝗘𝗔𝗠𝗦🏀⭕.𝗖𝗢𝗡𝗙𝗘𝗥𝗘𝗡𝗖𝗘 𝗢𝗡𝗘*
+        let mesg = `*NBA𝟮K 𝗧𝗘𝗔𝗠𝗦🏀⭕* *𝗖𝗢𝗡𝗙𝗘𝗥𝗘𝗡𝗖𝗘 𝗢𝗡𝗘*
 ░░░░░░░░░░░░░░░░░░░
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 🏀 *Team*: ${data.e1}
@@ -331,7 +331,7 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/410a422056516fbd7d
             await client.query(query, [texte]);
 
             console.log(`données du joueur: ${joueur} mise à jour`);
-            await repondre(`Données du joueur mises à jour\n👤 *JOUEUR*: ${joueur}\n⚙ *OBJECT*: ${object}\n💵 *VALEUR*: ${texte} \n *NOUVELLE Capacité*: ${texte}`);
+            await repondre(`Données du joueur mises à jour\n👤 *JOUEUR*: ${joueur}\n⚙ *OBJECT*: ${object}\n💵 *VALEUR*: ${texte} \n *Team/User*: ${texte}`);
           } else {
             console.log("Nom d'objet non reconnu ou signe invalide.");
             repondre(`Une erreur est survenue. Veuillez entrer correctement les données.`);
@@ -367,7 +367,7 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/410a422056516fbd7d
       let texte = arg.slice(5).join(' ');
 
       if (!arg || arg.length === 0) {
-        let mesg = `*NBA𝟮K 𝗧𝗘𝗔𝗠𝗦🏀⭕.𝗖𝗢𝗡𝗙𝗘𝗥𝗘𝗡𝗖𝗘 𝗢𝗡𝗘*
+        let mesg = `*NBA𝟮K 𝗧𝗘𝗔𝗠𝗦🏀⭕* *𝗖𝗢𝗡𝗙𝗘𝗥𝗘𝗡𝗖𝗘 𝗢𝗡𝗘*
 ░░░░░░░░░░░░░░░░░░░
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 🏀 *Team*: ${data.e1}
@@ -505,7 +505,7 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/410a422056516fbd7d
             await client.query(query, [texte]);
 
             console.log(`données du joueur: ${joueur} mise à jour`);
-            await repondre(`Données du joueur mises à jour\n👤 *JOUEUR*: ${joueur}\n⚙ *OBJECT*: ${object}\n💵 *VALEUR*: ${texte} \n *NOUVELLE Capacité*: ${texte}`);
+            await repondre(`Données du joueur mises à jour\n👤 *JOUEUR*: ${joueur}\n⚙ *OBJECT*: ${object}\n💵 *VALEUR*: ${texte} \n *Team/User*: ${texte}`);
           } else {
             console.log("Nom d'objet non reconnu ou signe invalide.");
             repondre(`Une erreur est survenue. Veuillez entrer correctement les données.`);
@@ -541,7 +541,7 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/410a422056516fbd7d
       let texte = arg.slice(5).join(' ');
 
       if (!arg || arg.length === 0) {
-        let mesg = `*NBA𝟮K 𝗧𝗘𝗔𝗠𝗦🏀⭕.𝗖𝗢𝗡𝗙𝗘𝗥𝗘𝗡𝗖𝗘 𝗢𝗡𝗘*
+        let mesg = `*NBA𝟮K 𝗧𝗘𝗔𝗠𝗦🏀⭕* *𝗖𝗢𝗡𝗙𝗘𝗥𝗘𝗡𝗖𝗘 𝗢𝗡𝗘*
 ░░░░░░░░░░░░░░░░░░░
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 🏀 *Team*: ${data.e1}
@@ -679,7 +679,7 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/410a422056516fbd7d
             await client.query(query, [texte]);
 
             console.log(`données du joueur: ${joueur} mise à jour`);
-            await repondre(`Données du joueur mises à jour\n👤 *JOUEUR*: ${joueur}\n⚙ *OBJECT*: ${object}\n💵 *VALEUR*: ${texte} \n *NOUVELLE Capacité*: ${texte}`);
+            await repondre(`Données du joueur mises à jour\n👤 *JOUEUR*: ${joueur}\n⚙ *OBJECT*: ${object}\n💵 *VALEUR*: ${texte} \n *Team/User*: ${texte}`);
           } else {
             console.log("Nom d'objet non reconnu ou signe invalide.");
             repondre(`Une erreur est survenue. Veuillez entrer correctement les données.`);
@@ -715,7 +715,7 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/410a422056516fbd7d
       let texte = arg.slice(5).join(' ');
 
       if (!arg || arg.length === 0) {
-        let mesg = `*NBA𝟮K 𝗧𝗘𝗔𝗠𝗦🏀⭕.𝗖𝗢𝗡𝗙𝗘𝗥𝗘𝗡𝗖𝗘 𝗢𝗡𝗘*
+        let mesg = `*NBA𝟮K 𝗧𝗘𝗔𝗠𝗦🏀⭕* *𝗖𝗢𝗡𝗙𝗘𝗥𝗘𝗡𝗖𝗘 𝗢𝗡𝗘*
 ░░░░░░░░░░░░░░░░░░░
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 🏀 *Team*: ${data.e1}
@@ -853,7 +853,7 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/410a422056516fbd7d
             await client.query(query, [texte]);
 
             console.log(`données du joueur: ${joueur} mise à jour`);
-            await repondre(`Données du joueur mises à jour\n👤 *JOUEUR*: ${joueur}\n⚙ *OBJECT*: ${object}\n💵 *VALEUR*: ${texte} \n *NOUVELLE Capacité*: ${texte}`);
+            await repondre(`Données du joueur mises à jour\n👤 *JOUEUR*: ${joueur}\n⚙ *OBJECT*: ${object}\n💵 *VALEUR*: ${texte} \n *Team/User*: ${texte}`);
           } else {
             console.log("Nom d'objet non reconnu ou signe invalide.");
             repondre(`Une erreur est survenue. Veuillez entrer correctement les données.`);
