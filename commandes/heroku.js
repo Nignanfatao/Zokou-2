@@ -90,7 +90,7 @@ str+= '🍁 *'+vr+'* '+'= '+h[vr]+'\n'
 // Fonction pour récupérer les déploiements en cours
 async function d(hk) {
     try {
-        const formations = await hk.get(`/apps/${process.env.HEROKU_APP_NAME}/formation`);
+        const formations = await hk.get(`/apps/${s.env.HEROKU_APP_NAME}/formation`);
         return formations.length > 1;
     } catch (error) {
         console.error('Erreur lors de la récupération des déploiements :', error);
@@ -127,8 +127,8 @@ zokou(
         }
 
         const Heroku = require('heroku-client');
-        const hk = new Heroku({ token: process.env.HEROKU_API_KEY });
-        const baseURI = "/apps/" + process.env.HEROKU_APP_NAME;
+        const hk = new Heroku({ token: s.env.HEROKU_API_KEY });
+        const baseURI = "/apps/" + s.env.HEROKU_APP_NAME;
         
         // Vérifier si des déploiements sont déjà en cours
         const dp = await d(hk);
