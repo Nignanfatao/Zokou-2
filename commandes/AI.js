@@ -96,3 +96,39 @@ zokou({ nomCom: "gpt", reaction: "📡", categorie: "IA" }, async (dest, zk, com
     repondre("Oups, une erreur est survenue lors du traitement de votre demande.");
   }
 });
+
+zokou(
+  { 
+    nomCom: "lyrics", 
+    reaction: "🎶", 
+    categorie: "Fun" 
+  }, 
+  async (dest, zk, commandeOptions) => {
+    const { repondre, arg, ms } = commandeOptions;
+
+    try {
+      if (!arg || arg.length === 0) {
+        return repondre(`Veuillez entrer les paroles à rechercher.`);
+      }
+
+      const text = arg.join(' ');
+      const data = await axios.get(`https://lyrist.vercel.app/api/${text}`);
+      const caption = `
+        ▁ ▂ ▅ ▇ █ L Y R I C S █ ▇ ▅ ▂ ▁\n
+        🎃 *TITRE:* ${data.title ? data.title : 'pas de titre'}
+        🎸 *AUTEUR(ARTISTE):* ${data.artist ? data.artist : 'Inconnue'}
+        🌊 *Lyrics:*\n\n${data.lyrics}\n
+        ━─━─────༺ - ༻─────━─━
+      `;
+      await zk.sendMessage(dest, { 
+        image: { url: data.image ? data.image : "https://www.canva.com/design/DAF9EwfHIzY/DppQ2dxNiaHzfIxvvMQI7A/edit?utm_content=DAF9EwfHIzY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" }, 
+        caption: caption 
+      }, { 
+        quoted: ms 
+      });
+    } catch (error) {
+      console.error('Une erreur est survenue:', error.message);
+      repondre('🙁 Une erreur est survenue');
+    }
+  }
+);
