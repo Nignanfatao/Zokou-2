@@ -87,59 +87,74 @@ str+= '🍁 *'+vr+'* '+'= '+h[vr]+'\n'
    
         });
 
+// Fonction pour récupérer les déploiements en cours
+async function d(hk) {
+    try {
+        const formations = await hk.get(`/apps/${process.env.HEROKU_APP_NAME}/formation`);
+        return formations.length > 1;
+    } catch (error) {
+        console.error('Erreur lors de la récupération des déploiements :', error);
+        return false;
+    }
+}
 
+// Fonction pour vérifier si le fork est déjà à jour
+async function f() {
+    const simpleGit = require('simple-git');
+    const git = simpleGit();
 
-	   cmd(
-  {
-    pattern: "updatenow",
-    desc: "update bot with main repo.",
-    filename: __filename,
-    category: "misc",
-  },
-  async (Void,citel,text,{isCreator}) => {
-    async function updatedb() {	
-      const simpleGit = require('simple-git')	
-          const git = simpleGit();	
-        const Heroku = require('heroku-client');	
-        const heroku = new Heroku({ token: process.env.HEROKU_API_KEY })	
-          await git.fetch();	
-              var commits = await git.log(['main' + '..origin/' +'main']);	
-              if (commits.total === 0) {	
-                return 'ʏᴏᴜ..ʜᴀᴠᴇ...ᴀʟʀᴇᴅʏ..ᴜᴘᴅᴀᴛᴇᴅ...'	
-              } else {	
-                    var app = await heroku.get('/apps/' + process.env.HEROKU_APP_NAME)	
-                   //   await Void.sendMessage(citel.chat,{text:'*ᴜᴘᴅᴀᴛɪɴɢ...*'})	
-                  git.fetch('upstream', 'main');	
-                  git.reset('hard', ['FETCH_HEAD']);	
-      
-                  var git_url = app.git_url.replace(	
-                    "https://", "https://api:" + process.env.HEROKU_API_KEY + "@"	
-                  )   	
-                  try {	
-                    await git.addRemote('heroku', git_url);	
-                  } catch { console.log('heroku remote adding error'); }	
-                  await git.push('heroku', 'main');	
-      
-                  return '*ʙᴏᴛ ᴜᴘᴅᴀᴛᴇᴅ...*\n_Restarting._'	
-      
-      
-              }	
-            }	
-       if(!isCreator) return citel.reply(tlang().owner);
-       if (Config.heroku=true){
-        const DB = require('../lib')
-        let commits = await DB.syncgit()
-        if (commits.total === 0)  {
-         citel.reply(`Hey ${citel.pushName}. You have latest version installed.`)
-          } else { 
-             citel.reply('Build Started...')
-            let update = await DB.updatedb()
-              citel.reply(update)
-          }
+    try {
+        await git.fetch();
+        const status = await git.status();
+        return status.behind === 0;
+    } catch (error) {
+        console.error('Erreur lors de la vérification de la mise à jour du fork :', error);
+        return false;
+    }
+}
 
-       }
-       let check = await get_deployments()
-       if(check==='true') return citel.reply('_Please wait..._\n_Currently 2 instances are running in Koyeb,wait to stop one of them._')
-       let data = await redeploy();
-       return citel.reply(data)
-  }) 
+zokou(
+    {
+        nomCom: "maj",
+        categorie: "heroku"
+    }, async (dest, zk, commandeOptions) => {
+
+        const { ms, repondre, superUser, arg } = commandeOptions;
+
+        if (!superUser) {
+            repondre('Commande réservée au propriétaire du bot');
+            return;
+        }
+
+        const Heroku = require('heroku-client');
+        const hk = new Heroku({ token: process.env.HEROKU_API_KEY });
+        const baseURI = "/apps/" + process.env.HEROKU_APP_NAME;
+        
+        // Vérifier si des déploiements sont déjà en cours
+        const dp = await d(hk);
+        if (dp) {
+            return repondre('_Veuillez patienter..._\n_Il y a actuellement des déploiements en cours._');
+        }
+
+        // Vérifier si le fork est déjà à jour
+        const fork = await f();
+        if (fork) {
+            return repondre('Votre fork est déjà à jour.');
+        }
+
+        // Mettre à jour le fork
+        const simpleGit = require('simple-git');
+        const git = simpleGit();
+        try {
+            await git.pull('origin', 'main');
+        } catch (error) {
+            console.error('Erreur lors de la mise à jour du fork :', error);
+            return repondre('Erreur lors de la mise à jour du fork.');
+        }
+
+        // Déclencher un nouveau build pour redéployer l'application
+        await hk.post(baseURI + "/builds", { body: {} });
+
+        return repondre('Fork mis à jour avec succès.\n Mise à jour du code en cours..._');
+    }
+);
